@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { memo, useEffect, useRef, useState } from 'react'
 import {
   ArrowLeft, ArrowRight, Bookmark, Check, ChevronLeft, ChevronRight,
   Activity, BriefcaseBusiness, Coins, Compass, Grid2X2, Heart, MoonStar, RotateCcw, Search, Sparkles, X,
@@ -95,20 +95,110 @@ function CardFace({ card, deckId, className = '' }: { card: Card; deckId: string
         ref.current.style.setProperty('--ry', '0deg')
       }}
     >
-      <img src={toAssetUrl(card.image)} alt={imageAlt(card)} loading="lazy" />
+      <img src={toAssetUrl(card.image)} alt={imageAlt(card)} loading="lazy" draggable="false" />
       <span className="card-face__sheen" aria-hidden="true" />
       <span className="sr-only">{meaningFor(card, deckId).title}</span>
     </div>
   )
 }
 
-function CardBack({ deck, className = '' }: { deck: Deck; className?: string }) {
+const CardBack = memo(function CardBack({ deck, className = '' }: { deck: Deck; className?: string }) {
   return (
     <div className={`card-back ${className}`}>
       {deck.cover ? <img src={toAssetUrl(deck.cover)} alt="" draggable="false" /> : <div className="card-back__pattern" aria-hidden="true">✧<span>☼</span>✧</div>}
       <span className="card-back__border" aria-hidden="true" />
     </div>
   )
+})
+
+function FanCarousel({ deck, count, initialPosition, selectedFan, onPositionMove, onPositionSettle, onSelect }: {
+  deck: Deck
+  count: number
+  initialPosition: number
+  selectedFan: { index: number; dx: number; dy: number } | null
+  onPositionMove: (position: number) => void
+  onPositionSettle: (position: number) => void
+  onSelect: (index: number, element: HTMLButtonElement) => void
+}) {
+  const [position, setPosition] = useState(initialPosition)
+  const [dragging, setDragging] = useState(false)
+  const positionRef = useRef(initialPosition)
+  const targetPosition = useRef(initialPosition)
+  const frame = useRef<number | null>(null)
+  const gesture = useRef<{ x: number; position: number; moved: boolean; lastPosition: number; lastTime: number; velocity: number } | null>(null)
+
+  useEffect(() => () => { if (frame.current !== null) cancelAnimationFrame(frame.current) }, [])
+
+  function schedulePosition(next: number) {
+    targetPosition.current = next
+    positionRef.current = next
+    onPositionMove(next)
+    if (frame.current !== null) return
+    frame.current = requestAnimationFrame(() => {
+      frame.current = null
+      setPosition(targetPosition.current)
+    })
+  }
+
+  function finishGesture() {
+    const current = gesture.current
+    if (!current) return
+    if (current.moved) {
+      const projected = positionRef.current + Math.max(-1.5, Math.min(1.5, current.velocity * 120))
+      const settled = wrapFanIndex(Math.round(projected), count)
+      if (frame.current !== null) cancelAnimationFrame(frame.current)
+      frame.current = null
+      targetPosition.current = settled
+      positionRef.current = settled
+      setPosition(settled)
+      onPositionMove(settled)
+      onPositionSettle(settled)
+      window.setTimeout(() => { if (gesture.current === current) gesture.current = null }, 160)
+    } else {
+      gesture.current = null
+    }
+    setDragging(false)
+  }
+
+  const visibleIndices = Array.from({ length: count }, (_, index) => index)
+    .filter((index) => Math.abs(fanOffset(index, position, count)) < 7.2)
+
+  return <div className={`draw-fan ${selectedFan ? 'is-selecting' : ''} ${dragging ? 'is-dragging' : ''}`}
+    aria-label={`Vuốt ngang để xoay toàn bộ ${count} lá bài rồi chạm để chọn`}
+    onPointerDown={(event) => {
+      if (selectedFan) return
+      gesture.current = { x: event.clientX, position: positionRef.current, moved: false, lastPosition: positionRef.current, lastTime: performance.now(), velocity: 0 }
+    }}
+    onPointerMove={(event) => {
+      const current = gesture.current
+      if (!current || selectedFan) return
+      if (Math.abs(event.clientX - current.x) > 9 && !current.moved) {
+        current.moved = true
+        setDragging(true)
+        event.currentTarget.setPointerCapture(event.pointerId)
+      }
+      if (!current.moved) return
+      const next = current.position - (event.clientX - current.x) / 48
+      const now = performance.now()
+      current.velocity = (next - current.lastPosition) / Math.max(1, now - current.lastTime)
+      current.lastPosition = next
+      current.lastTime = now
+      schedulePosition(next)
+    }}
+    onPointerUp={finishGesture}
+    onPointerCancel={() => { gesture.current = null; setDragging(false) }}>
+    {visibleIndices.map((index) => {
+      const offset = fanOffset(index, position, count)
+      const angle = offset * 0.16
+      const x = 235 * Math.sin(angle)
+      const y = 82 * (1 - Math.cos(angle)) / (1 - Math.cos(0.96))
+      const picked = selectedFan?.index === index
+      return <button className={`draw-fan__card ${picked ? 'is-picked' : ''}`} type="button" key={index} data-fan-index={index}
+        style={{ '--arc-x': `${x}px`, '--arc-y': `${y}px`, '--arc-rotation': `${offset * 5.2}deg`, '--arc-scale': 1 - Math.abs(offset) * 0.022, '--arc-opacity': 1 - Math.abs(offset) * 0.025, '--lift-x': `${picked ? selectedFan.dx : 0}px`, '--lift-y': `${picked ? selectedFan.dy : 0}px`, zIndex: picked ? 40 : 30 - Math.round(Math.abs(offset) * 3) } as React.CSSProperties}
+        onClick={(event) => { if (gesture.current?.moved) { gesture.current = null; return } onSelect(index, event.currentTarget) }}
+        aria-label={`Chọn lá bài thứ ${index + 1} trong ${count} lá`} disabled={Boolean(selectedFan)}><CardBack deck={deck} /></button>
+    })}
+  </div>
 }
 
 function App() {
@@ -124,7 +214,6 @@ function App() {
   const [flipped, setFlipped] = useState(false)
   const [selectedFan, setSelectedFan] = useState<{ index: number; dx: number; dy: number } | null>(null)
   const [fanPosition, setFanPosition] = useState(6)
-  const [fanDragging, setFanDragging] = useState(false)
   const [resultIndex, setResultIndex] = useState(0)
   const [journal, setJournal] = useState<SavedReading[]>(loadJournal)
   const [savedId, setSavedId] = useState<string | null>(null)
@@ -134,10 +223,8 @@ function App() {
   const [libraryCard, setLibraryCard] = useState<Card | null>(null)
   const [wordIndex, setWordIndex] = useState(0)
   const timer = useRef<number | null>(null)
-  const fanRef = useRef<HTMLDivElement>(null)
   const stageRef = useRef<HTMLDivElement>(null)
   const fanPositionRef = useRef(6)
-  const fanGesture = useRef<{ x: number; position: number; moved: boolean; lastPosition: number; lastTime: number; velocity: number } | null>(null)
 
   const deck = decks.find((item) => item.id === deckId) || decks[0]
   const libraryDeck = decks.find((item) => item.id === libraryDeckId) || decks[0]
@@ -148,7 +235,6 @@ function App() {
   const target = spread
   const remainingCards = queue.filter((item) => !drawn.some((chosen) => chosen.id === item.id))
   const fanCount = remainingCards.length || deck.cards.length
-  const visibleFanIndices = Array.from({ length: fanCount }, (_, index) => index).filter((index) => Math.abs(fanOffset(index, fanPosition, fanCount)) < 7.2)
   const filteredCards = libraryDeck.cards.filter((card) => `${card.name} ${card.id}`.toLowerCase().includes(libraryQuery.trim().toLowerCase()))
 
   useEffect(() => {
@@ -191,7 +277,6 @@ function App() {
     setSelectedFan(null)
     setFanPosition(6)
     fanPositionRef.current = 6
-    setFanDragging(false)
     setResultIndex(0)
     setSavedId(null)
     setPhase('draw')
@@ -203,7 +288,7 @@ function App() {
     const resolvedIndex = wrapFanIndex(index ?? Math.round(fanPositionRef.current), remainingCards.length)
     const card = remainingCards[resolvedIndex]
     if (!card) return
-    const element = chosenElement || fanRef.current?.querySelector<HTMLButtonElement>(`[data-fan-index="${resolvedIndex}"]`)
+    const element = chosenElement || stageRef.current?.querySelector<HTMLButtonElement>(`[data-fan-index="${resolvedIndex}"]`)
     const cardRect = element?.getBoundingClientRect()
     const stageRect = stageRef.current?.getBoundingClientRect()
     setSelectedFan({
@@ -219,24 +304,6 @@ function App() {
       timer.current = window.setTimeout(() => setFlipped(true), 260)
     }, 520)
     if (navigator.vibrate) navigator.vibrate(20)
-  }
-
-  function moveFan(position: number) {
-    fanPositionRef.current = position
-    setFanPosition(position)
-  }
-
-  function finishFanGesture() {
-    const gesture = fanGesture.current
-    if (!gesture) return
-    if (gesture.moved) {
-      const projected = fanPositionRef.current + Math.max(-1.5, Math.min(1.5, gesture.velocity * 120))
-      moveFan(wrapFanIndex(Math.round(projected), fanCount))
-      window.setTimeout(() => { if (fanGesture.current === gesture) fanGesture.current = null }, 160)
-    } else {
-      fanGesture.current = null
-    }
-    setFanDragging(false)
   }
 
   function advanceDraw() {
@@ -359,7 +426,7 @@ function App() {
             <div className="draw-stage" ref={stageRef}>
               <div className="draw-stage__orbit" aria-hidden="true" /><span className="draw-stage__star draw-stage__star--left">✦</span><span className="draw-stage__star draw-stage__star--right">✧</span>
               {activeCard ? <div className={`flip-card ${flipped ? 'is-flipped' : ''}`}><div className="flip-card__inner"><div className="flip-card__side flip-card__side--back"><CardBack deck={deck} /></div><div className="flip-card__side flip-card__side--front"><CardFace card={activeCard} deckId={deckId} /></div></div></div>
-                : <div className={`draw-fan ${selectedFan ? 'is-selecting' : ''} ${fanDragging ? 'is-dragging' : ''}`} ref={fanRef} aria-label={`Vuốt ngang để xoay toàn bộ ${fanCount} lá bài rồi chạm để chọn`} onPointerDown={(event) => { fanGesture.current = { x: event.clientX, position: fanPositionRef.current, moved: false, lastPosition: fanPositionRef.current, lastTime: performance.now(), velocity: 0 } }} onPointerMove={(event) => { const gesture = fanGesture.current; if (!gesture) return; if (Math.abs(event.clientX - gesture.x) > 9 && !gesture.moved) { gesture.moved = true; setFanDragging(true); event.currentTarget.setPointerCapture(event.pointerId) } if (!gesture.moved) return; const next = gesture.position - (event.clientX - gesture.x) / 48; const now = performance.now(); gesture.velocity = (next - gesture.lastPosition) / Math.max(1, now - gesture.lastTime); gesture.lastPosition = next; gesture.lastTime = now; moveFan(next) }} onPointerUp={finishFanGesture} onPointerCancel={() => { fanGesture.current = null; setFanDragging(false) }}>{visibleFanIndices.map((index) => { const offset = fanOffset(index, fanPosition, fanCount); const angle = offset * 0.16; const x = 235 * Math.sin(angle); const y = 82 * (1 - Math.cos(angle)) / (1 - Math.cos(0.96)); const picked = selectedFan?.index === index; return <button className={`draw-fan__card ${picked ? 'is-picked' : ''}`} type="button" key={index} data-fan-index={index} style={{ '--arc-x': `${x}px`, '--arc-y': `${y}px`, '--arc-rotation': `${offset * 5.2}deg`, '--arc-scale': 1 - Math.abs(offset) * 0.022, '--arc-brightness': 1 - Math.abs(offset) * 0.045, '--lift-x': `${picked ? selectedFan.dx : 0}px`, '--lift-y': `${picked ? selectedFan.dy : 0}px`, zIndex: picked ? 40 : 30 - Math.round(Math.abs(offset) * 3) } as React.CSSProperties} onClick={(event) => { if (fanGesture.current?.moved) { fanGesture.current = null; return } drawCard(index, event.currentTarget) }} aria-label={`Chọn lá bài thứ ${index + 1} trong ${fanCount} lá`} disabled={Boolean(selectedFan)}><CardBack deck={deck} /></button> })}</div>}
+                : <FanCarousel deck={deck} count={fanCount} initialPosition={fanPositionRef.current} selectedFan={selectedFan} onPositionMove={(position) => { fanPositionRef.current = position }} onPositionSettle={setFanPosition} onSelect={drawCard} />}
             </div>
             <div className="draw-footer">
               {activeCard ? <><p className="draw-footer__label">✦ &nbsp; {meaningFor(activeCard, deckId).title}</p><button type="button" className="primary-button" onClick={advanceDraw}><span>{drawn.length >= target ? 'Xem thông điệp' : 'Rút lá tiếp theo'}</span><ArrowRight size={19} /></button></>

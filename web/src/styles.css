@@ -95,7 +95,7 @@ h1,h2,h3,p{margin-top:0}.home-hero{min-height:668px;position:relative;text-align
 
 /* A rotating arc: every card changes its angle and height while swiping. */
 .draw-fan{overflow:hidden;touch-action:none;overscroll-behavior:contain}
-.draw-fan__card{left:50%;top:58%;bottom:auto;width:122px;height:198px;transform-origin:center;transform:translate(-50%,-50%) translate(var(--arc-x),var(--arc-y)) rotate(var(--arc-rotation)) scale(var(--arc-scale));filter:drop-shadow(0 6px 7px #0009) brightness(var(--arc-brightness));transition:transform 460ms cubic-bezier(.19,1,.22,1),opacity 340ms ease,filter 340ms ease;touch-action:none}
+.draw-fan__card{left:50%;top:58%;bottom:auto;width:122px;height:198px;transform-origin:center;transform:translate(-50%,-50%) translate(var(--arc-x),var(--arc-y)) rotate(var(--arc-rotation)) scale(var(--arc-scale));filter:none;opacity:var(--arc-opacity);backface-visibility:hidden;-webkit-backface-visibility:hidden;transition:transform 460ms cubic-bezier(.19,1,.22,1),opacity 340ms ease;touch-action:none}
 .draw-fan__card:active{transform:translate(-50%,-50%) translate(var(--arc-x),var(--arc-y)) rotate(var(--arc-rotation)) scale(var(--arc-scale))}
 .draw-fan.is-dragging .draw-fan__card{transition:none}
 .draw-fan__card.is-picked,.draw-fan__card.is-picked:active{transform:translate(-50%,-50%) translate(calc(var(--arc-x) + var(--lift-x)),calc(var(--arc-y) + var(--lift-y))) rotate(0deg) scale(1.62);transition:transform 540ms cubic-bezier(.16,.85,.2,1),filter 340ms ease}
