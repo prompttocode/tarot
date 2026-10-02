@@ -1,0 +1,3273 @@
+[
+  {
+    "id": "rider-waite",
+    "name": "Rider-Waite",
+    "count": 78,
+    "license": "Public Domain",
+    "cover": "/cards/rider-waite/Cover.jpg",
+    "cards": [
+      {
+        "id": "00_Fool",
+        "name": "Fool",
+        "image": "/cards/rider-waite/00_Fool.jpg"
+      },
+      {
+        "id": "01_Magician",
+        "name": "Magician",
+        "image": "/cards/rider-waite/01_Magician.jpg"
+      },
+      {
+        "id": "02_High_Priestess",
+        "name": "High Priestess",
+        "image": "/cards/rider-waite/02_High_Priestess.jpg"
+      },
+      {
+        "id": "03_Empress",
+        "name": "Empress",
+        "image": "/cards/rider-waite/03_Empress.jpg"
+      },
+      {
+        "id": "04_Emperor",
+        "name": "Emperor",
+        "image": "/cards/rider-waite/04_Emperor.jpg"
+      },
+      {
+        "id": "05_Hierophant",
+        "name": "Hierophant",
+        "image": "/cards/rider-waite/05_Hierophant.jpg"
+      },
+      {
+        "id": "06_Lovers",
+        "name": "Lovers",
+        "image": "/cards/rider-waite/06_Lovers.jpg"
+      },
+      {
+        "id": "07_Chariot",
+        "name": "Chariot",
+        "image": "/cards/rider-waite/07_Chariot.jpg"
+      },
+      {
+        "id": "08_Strength",
+        "name": "Strength",
+        "image": "/cards/rider-waite/08_Strength.jpg"
+      },
+      {
+        "id": "09_Hermit",
+        "name": "Hermit",
+        "image": "/cards/rider-waite/09_Hermit.jpg"
+      },
+      {
+        "id": "10_Wheel_of_Fortune",
+        "name": "Wheel of Fortune",
+        "image": "/cards/rider-waite/10_Wheel_of_Fortune.jpg"
+      },
+      {
+        "id": "11_Justice",
+        "name": "Justice",
+        "image": "/cards/rider-waite/11_Justice.jpg"
+      },
+      {
+        "id": "12_Hanged_Man",
+        "name": "Hanged Man",
+        "image": "/cards/rider-waite/12_Hanged_Man.jpg"
+      },
+      {
+        "id": "13_Death",
+        "name": "Death",
+        "image": "/cards/rider-waite/13_Death.jpg"
+      },
+      {
+        "id": "14_Temperance",
+        "name": "Temperance",
+        "image": "/cards/rider-waite/14_Temperance.jpg"
+      },
+      {
+        "id": "15_Devil",
+        "name": "Devil",
+        "image": "/cards/rider-waite/15_Devil.jpg"
+      },
+      {
+        "id": "16_Tower",
+        "name": "Tower",
+        "image": "/cards/rider-waite/16_Tower.jpg"
+      },
+      {
+        "id": "17_Star",
+        "name": "Star",
+        "image": "/cards/rider-waite/17_Star.jpg"
+      },
+      {
+        "id": "18_Moon",
+        "name": "Moon",
+        "image": "/cards/rider-waite/18_Moon.jpg"
+      },
+      {
+        "id": "19_Sun",
+        "name": "Sun",
+        "image": "/cards/rider-waite/19_Sun.jpg"
+      },
+      {
+        "id": "20_Judgement",
+        "name": "Judgement",
+        "image": "/cards/rider-waite/20_Judgement.jpg"
+      },
+      {
+        "id": "21_World",
+        "name": "World",
+        "image": "/cards/rider-waite/21_World.jpg"
+      },
+      {
+        "id": "Cups01",
+        "name": "Cups 1",
+        "image": "/cards/rider-waite/Cups01.jpg"
+      },
+      {
+        "id": "Cups02",
+        "name": "Cups 2",
+        "image": "/cards/rider-waite/Cups02.jpg"
+      },
+      {
+        "id": "Cups03",
+        "name": "Cups 3",
+        "image": "/cards/rider-waite/Cups03.jpg"
+      },
+      {
+        "id": "Cups04",
+        "name": "Cups 4",
+        "image": "/cards/rider-waite/Cups04.jpg"
+      },
+      {
+        "id": "Cups05",
+        "name": "Cups 5",
+        "image": "/cards/rider-waite/Cups05.jpg"
+      },
+      {
+        "id": "Cups06",
+        "name": "Cups 6",
+        "image": "/cards/rider-waite/Cups06.jpg"
+      },
+      {
+        "id": "Cups07",
+        "name": "Cups 7",
+        "image": "/cards/rider-waite/Cups07.jpg"
+      },
+      {
+        "id": "Cups08",
+        "name": "Cups 8",
+        "image": "/cards/rider-waite/Cups08.jpg"
+      },
+      {
+        "id": "Cups09",
+        "name": "Cups 9",
+        "image": "/cards/rider-waite/Cups09.jpg"
+      },
+      {
+        "id": "Cups10",
+        "name": "Cups 10",
+        "image": "/cards/rider-waite/Cups10.jpg"
+      },
+      {
+        "id": "Cups11",
+        "name": "Cups 11",
+        "image": "/cards/rider-waite/Cups11.jpg"
+      },
+      {
+        "id": "Cups12",
+        "name": "Cups 12",
+        "image": "/cards/rider-waite/Cups12.jpg"
+      },
+      {
+        "id": "Cups13",
+        "name": "Cups 13",
+        "image": "/cards/rider-waite/Cups13.jpg"
+      },
+      {
+        "id": "Cups14",
+        "name": "Cups 14",
+        "image": "/cards/rider-waite/Cups14.jpg"
+      },
+      {
+        "id": "Pents01",
+        "name": "Pents 1",
+        "image": "/cards/rider-waite/Pents01.jpg"
+      },
+      {
+        "id": "Pents02",
+        "name": "Pents 2",
+        "image": "/cards/rider-waite/Pents02.jpg"
+      },
+      {
+        "id": "Pents03",
+        "name": "Pents 3",
+        "image": "/cards/rider-waite/Pents03.jpg"
+      },
+      {
+        "id": "Pents04",
+        "name": "Pents 4",
+        "image": "/cards/rider-waite/Pents04.jpg"
+      },
+      {
+        "id": "Pents05",
+        "name": "Pents 5",
+        "image": "/cards/rider-waite/Pents05.jpg"
+      },
+      {
+        "id": "Pents06",
+        "name": "Pents 6",
+        "image": "/cards/rider-waite/Pents06.jpg"
+      },
+      {
+        "id": "Pents07",
+        "name": "Pents 7",
+        "image": "/cards/rider-waite/Pents07.jpg"
+      },
+      {
+        "id": "Pents08",
+        "name": "Pents 8",
+        "image": "/cards/rider-waite/Pents08.jpg"
+      },
+      {
+        "id": "Pents09",
+        "name": "Pents 9",
+        "image": "/cards/rider-waite/Pents09.jpg"
+      },
+      {
+        "id": "Pents10",
+        "name": "Pents 10",
+        "image": "/cards/rider-waite/Pents10.jpg"
+      },
+      {
+        "id": "Pents11",
+        "name": "Pents 11",
+        "image": "/cards/rider-waite/Pents11.jpg"
+      },
+      {
+        "id": "Pents12",
+        "name": "Pents 12",
+        "image": "/cards/rider-waite/Pents12.jpg"
+      },
+      {
+        "id": "Pents13",
+        "name": "Pents 13",
+        "image": "/cards/rider-waite/Pents13.jpg"
+      },
+      {
+        "id": "Pents14",
+        "name": "Pents 14",
+        "image": "/cards/rider-waite/Pents14.jpg"
+      },
+      {
+        "id": "Swords01",
+        "name": "Swords 1",
+        "image": "/cards/rider-waite/Swords01.jpg"
+      },
+      {
+        "id": "Swords02",
+        "name": "Swords 2",
+        "image": "/cards/rider-waite/Swords02.jpg"
+      },
+      {
+        "id": "Swords03",
+        "name": "Swords 3",
+        "image": "/cards/rider-waite/Swords03.jpg"
+      },
+      {
+        "id": "Swords04",
+        "name": "Swords 4",
+        "image": "/cards/rider-waite/Swords04.jpg"
+      },
+      {
+        "id": "Swords05",
+        "name": "Swords 5",
+        "image": "/cards/rider-waite/Swords05.jpg"
+      },
+      {
+        "id": "Swords06",
+        "name": "Swords 6",
+        "image": "/cards/rider-waite/Swords06.jpg"
+      },
+      {
+        "id": "Swords07",
+        "name": "Swords 7",
+        "image": "/cards/rider-waite/Swords07.jpg"
+      },
+      {
+        "id": "Swords08",
+        "name": "Swords 8",
+        "image": "/cards/rider-waite/Swords08.jpg"
+      },
+      {
+        "id": "Swords09",
+        "name": "Swords 9",
+        "image": "/cards/rider-waite/Swords09.jpg"
+      },
+      {
+        "id": "Swords10",
+        "name": "Swords 10",
+        "image": "/cards/rider-waite/Swords10.jpg"
+      },
+      {
+        "id": "Swords11",
+        "name": "Swords 11",
+        "image": "/cards/rider-waite/Swords11.jpg"
+      },
+      {
+        "id": "Swords12",
+        "name": "Swords 12",
+        "image": "/cards/rider-waite/Swords12.jpg"
+      },
+      {
+        "id": "Swords13",
+        "name": "Swords 13",
+        "image": "/cards/rider-waite/Swords13.jpg"
+      },
+      {
+        "id": "Swords14",
+        "name": "Swords 14",
+        "image": "/cards/rider-waite/Swords14.jpg"
+      },
+      {
+        "id": "Wands01",
+        "name": "Wands 1",
+        "image": "/cards/rider-waite/Wands01.jpg"
+      },
+      {
+        "id": "Wands02",
+        "name": "Wands 2",
+        "image": "/cards/rider-waite/Wands02.jpg"
+      },
+      {
+        "id": "Wands03",
+        "name": "Wands 3",
+        "image": "/cards/rider-waite/Wands03.jpg"
+      },
+      {
+        "id": "Wands04",
+        "name": "Wands 4",
+        "image": "/cards/rider-waite/Wands04.jpg"
+      },
+      {
+        "id": "Wands05",
+        "name": "Wands 5",
+        "image": "/cards/rider-waite/Wands05.jpg"
+      },
+      {
+        "id": "Wands06",
+        "name": "Wands 6",
+        "image": "/cards/rider-waite/Wands06.jpg"
+      },
+      {
+        "id": "Wands07",
+        "name": "Wands 7",
+        "image": "/cards/rider-waite/Wands07.jpg"
+      },
+      {
+        "id": "Wands08",
+        "name": "Wands 8",
+        "image": "/cards/rider-waite/Wands08.jpg"
+      },
+      {
+        "id": "Wands09",
+        "name": "Wands 9",
+        "image": "/cards/rider-waite/Wands09.jpg"
+      },
+      {
+        "id": "Wands10",
+        "name": "Wands 10",
+        "image": "/cards/rider-waite/Wands10.jpg"
+      },
+      {
+        "id": "Wands11",
+        "name": "Wands 11",
+        "image": "/cards/rider-waite/Wands11.jpg"
+      },
+      {
+        "id": "Wands12",
+        "name": "Wands 12",
+        "image": "/cards/rider-waite/Wands12.jpg"
+      },
+      {
+        "id": "Wands13",
+        "name": "Wands 13",
+        "image": "/cards/rider-waite/Wands13.jpg"
+      },
+      {
+        "id": "Wands14",
+        "name": "Wands 14",
+        "image": "/cards/rider-waite/Wands14.jpg"
+      }
+    ]
+  },
+  {
+    "id": "soimoi",
+    "name": "Soimoi",
+    "count": 78,
+    "license": "CC BY 4.0",
+    "cover": "/cards/soimoi/Cover.jpg",
+    "cards": [
+      {
+        "id": "00_Fool",
+        "name": "Fool",
+        "image": "/cards/soimoi/00_Fool.jpg"
+      },
+      {
+        "id": "01_Magician",
+        "name": "Magician",
+        "image": "/cards/soimoi/01_Magician.jpg"
+      },
+      {
+        "id": "02_High_Priestess",
+        "name": "High Priestess",
+        "image": "/cards/soimoi/02_High_Priestess.jpg"
+      },
+      {
+        "id": "03_Empress",
+        "name": "Empress",
+        "image": "/cards/soimoi/03_Empress.jpg"
+      },
+      {
+        "id": "04_Emperor",
+        "name": "Emperor",
+        "image": "/cards/soimoi/04_Emperor.jpg"
+      },
+      {
+        "id": "05_Hierophant",
+        "name": "Hierophant",
+        "image": "/cards/soimoi/05_Hierophant.jpg"
+      },
+      {
+        "id": "06_Lovers",
+        "name": "Lovers",
+        "image": "/cards/soimoi/06_Lovers.jpg"
+      },
+      {
+        "id": "07_Chariot",
+        "name": "Chariot",
+        "image": "/cards/soimoi/07_Chariot.jpg"
+      },
+      {
+        "id": "08_Strength",
+        "name": "Strength",
+        "image": "/cards/soimoi/08_Strength.jpg"
+      },
+      {
+        "id": "09_Hermit",
+        "name": "Hermit",
+        "image": "/cards/soimoi/09_Hermit.jpg"
+      },
+      {
+        "id": "10_Wheel_of_Fortune",
+        "name": "Wheel of Fortune",
+        "image": "/cards/soimoi/10_Wheel_of_Fortune.jpg"
+      },
+      {
+        "id": "11_Justice",
+        "name": "Justice",
+        "image": "/cards/soimoi/11_Justice.jpg"
+      },
+      {
+        "id": "12_Hanged_Man",
+        "name": "Hanged Man",
+        "image": "/cards/soimoi/12_Hanged_Man.jpg"
+      },
+      {
+        "id": "13_Death",
+        "name": "Death",
+        "image": "/cards/soimoi/13_Death.jpg"
+      },
+      {
+        "id": "14_Temperance",
+        "name": "Temperance",
+        "image": "/cards/soimoi/14_Temperance.jpg"
+      },
+      {
+        "id": "15_Devil",
+        "name": "Devil",
+        "image": "/cards/soimoi/15_Devil.jpg"
+      },
+      {
+        "id": "16_Tower",
+        "name": "Tower",
+        "image": "/cards/soimoi/16_Tower.jpg"
+      },
+      {
+        "id": "17_Star",
+        "name": "Star",
+        "image": "/cards/soimoi/17_Star.jpg"
+      },
+      {
+        "id": "18_Moon",
+        "name": "Moon",
+        "image": "/cards/soimoi/18_Moon.jpg"
+      },
+      {
+        "id": "19_Sun",
+        "name": "Sun",
+        "image": "/cards/soimoi/19_Sun.jpg"
+      },
+      {
+        "id": "20_Judgement",
+        "name": "Judgement",
+        "image": "/cards/soimoi/20_Judgement.jpg"
+      },
+      {
+        "id": "21_World",
+        "name": "World",
+        "image": "/cards/soimoi/21_World.jpg"
+      },
+      {
+        "id": "Cups01",
+        "name": "Cups 1",
+        "image": "/cards/soimoi/Cups01.jpg"
+      },
+      {
+        "id": "Cups02",
+        "name": "Cups 2",
+        "image": "/cards/soimoi/Cups02.jpg"
+      },
+      {
+        "id": "Cups03",
+        "name": "Cups 3",
+        "image": "/cards/soimoi/Cups03.jpg"
+      },
+      {
+        "id": "Cups04",
+        "name": "Cups 4",
+        "image": "/cards/soimoi/Cups04.jpg"
+      },
+      {
+        "id": "Cups05",
+        "name": "Cups 5",
+        "image": "/cards/soimoi/Cups05.jpg"
+      },
+      {
+        "id": "Cups06",
+        "name": "Cups 6",
+        "image": "/cards/soimoi/Cups06.jpg"
+      },
+      {
+        "id": "Cups07",
+        "name": "Cups 7",
+        "image": "/cards/soimoi/Cups07.jpg"
+      },
+      {
+        "id": "Cups08",
+        "name": "Cups 8",
+        "image": "/cards/soimoi/Cups08.jpg"
+      },
+      {
+        "id": "Cups09",
+        "name": "Cups 9",
+        "image": "/cards/soimoi/Cups09.jpg"
+      },
+      {
+        "id": "Cups10",
+        "name": "Cups 10",
+        "image": "/cards/soimoi/Cups10.jpg"
+      },
+      {
+        "id": "Cups11",
+        "name": "Cups 11",
+        "image": "/cards/soimoi/Cups11.jpg"
+      },
+      {
+        "id": "Cups12",
+        "name": "Cups 12",
+        "image": "/cards/soimoi/Cups12.jpg"
+      },
+      {
+        "id": "Cups13",
+        "name": "Cups 13",
+        "image": "/cards/soimoi/Cups13.jpg"
+      },
+      {
+        "id": "Cups14",
+        "name": "Cups 14",
+        "image": "/cards/soimoi/Cups14.jpg"
+      },
+      {
+        "id": "Pents01",
+        "name": "Pents 1",
+        "image": "/cards/soimoi/Pents01.jpg"
+      },
+      {
+        "id": "Pents02",
+        "name": "Pents 2",
+        "image": "/cards/soimoi/Pents02.jpg"
+      },
+      {
+        "id": "Pents03",
+        "name": "Pents 3",
+        "image": "/cards/soimoi/Pents03.jpg"
+      },
+      {
+        "id": "Pents04",
+        "name": "Pents 4",
+        "image": "/cards/soimoi/Pents04.jpg"
+      },
+      {
+        "id": "Pents05",
+        "name": "Pents 5",
+        "image": "/cards/soimoi/Pents05.jpg"
+      },
+      {
+        "id": "Pents06",
+        "name": "Pents 6",
+        "image": "/cards/soimoi/Pents06.jpg"
+      },
+      {
+        "id": "Pents07",
+        "name": "Pents 7",
+        "image": "/cards/soimoi/Pents07.jpg"
+      },
+      {
+        "id": "Pents08",
+        "name": "Pents 8",
+        "image": "/cards/soimoi/Pents08.jpg"
+      },
+      {
+        "id": "Pents09",
+        "name": "Pents 9",
+        "image": "/cards/soimoi/Pents09.jpg"
+      },
+      {
+        "id": "Pents10",
+        "name": "Pents 10",
+        "image": "/cards/soimoi/Pents10.jpg"
+      },
+      {
+        "id": "Pents11",
+        "name": "Pents 11",
+        "image": "/cards/soimoi/Pents11.jpg"
+      },
+      {
+        "id": "Pents12",
+        "name": "Pents 12",
+        "image": "/cards/soimoi/Pents12.jpg"
+      },
+      {
+        "id": "Pents13",
+        "name": "Pents 13",
+        "image": "/cards/soimoi/Pents13.jpg"
+      },
+      {
+        "id": "Pents14",
+        "name": "Pents 14",
+        "image": "/cards/soimoi/Pents14.jpg"
+      },
+      {
+        "id": "Swords01",
+        "name": "Swords 1",
+        "image": "/cards/soimoi/Swords01.jpg"
+      },
+      {
+        "id": "Swords02",
+        "name": "Swords 2",
+        "image": "/cards/soimoi/Swords02.jpg"
+      },
+      {
+        "id": "Swords03",
+        "name": "Swords 3",
+        "image": "/cards/soimoi/Swords03.jpg"
+      },
+      {
+        "id": "Swords04",
+        "name": "Swords 4",
+        "image": "/cards/soimoi/Swords04.jpg"
+      },
+      {
+        "id": "Swords05",
+        "name": "Swords 5",
+        "image": "/cards/soimoi/Swords05.jpg"
+      },
+      {
+        "id": "Swords06",
+        "name": "Swords 6",
+        "image": "/cards/soimoi/Swords06.jpg"
+      },
+      {
+        "id": "Swords07",
+        "name": "Swords 7",
+        "image": "/cards/soimoi/Swords07.jpg"
+      },
+      {
+        "id": "Swords08",
+        "name": "Swords 8",
+        "image": "/cards/soimoi/Swords08.jpg"
+      },
+      {
+        "id": "Swords09",
+        "name": "Swords 9",
+        "image": "/cards/soimoi/Swords09.jpg"
+      },
+      {
+        "id": "Swords10",
+        "name": "Swords 10",
+        "image": "/cards/soimoi/Swords10.jpg"
+      },
+      {
+        "id": "Swords11",
+        "name": "Swords 11",
+        "image": "/cards/soimoi/Swords11.jpg"
+      },
+      {
+        "id": "Swords12",
+        "name": "Swords 12",
+        "image": "/cards/soimoi/Swords12.jpg"
+      },
+      {
+        "id": "Swords13",
+        "name": "Swords 13",
+        "image": "/cards/soimoi/Swords13.jpg"
+      },
+      {
+        "id": "Swords14",
+        "name": "Swords 14",
+        "image": "/cards/soimoi/Swords14.jpg"
+      },
+      {
+        "id": "Wands01",
+        "name": "Wands 1",
+        "image": "/cards/soimoi/Wands01.jpg"
+      },
+      {
+        "id": "Wands02",
+        "name": "Wands 2",
+        "image": "/cards/soimoi/Wands02.jpg"
+      },
+      {
+        "id": "Wands03",
+        "name": "Wands 3",
+        "image": "/cards/soimoi/Wands03.jpg"
+      },
+      {
+        "id": "Wands04",
+        "name": "Wands 4",
+        "image": "/cards/soimoi/Wands04.jpg"
+      },
+      {
+        "id": "Wands05",
+        "name": "Wands 5",
+        "image": "/cards/soimoi/Wands05.jpg"
+      },
+      {
+        "id": "Wands06",
+        "name": "Wands 6",
+        "image": "/cards/soimoi/Wands06.jpg"
+      },
+      {
+        "id": "Wands07",
+        "name": "Wands 7",
+        "image": "/cards/soimoi/Wands07.jpg"
+      },
+      {
+        "id": "Wands08",
+        "name": "Wands 8",
+        "image": "/cards/soimoi/Wands08.jpg"
+      },
+      {
+        "id": "Wands09",
+        "name": "Wands 9",
+        "image": "/cards/soimoi/Wands09.jpg"
+      },
+      {
+        "id": "Wands10",
+        "name": "Wands 10",
+        "image": "/cards/soimoi/Wands10.jpg"
+      },
+      {
+        "id": "Wands11",
+        "name": "Wands 11",
+        "image": "/cards/soimoi/Wands11.jpg"
+      },
+      {
+        "id": "Wands12",
+        "name": "Wands 12",
+        "image": "/cards/soimoi/Wands12.jpg"
+      },
+      {
+        "id": "Wands13",
+        "name": "Wands 13",
+        "image": "/cards/soimoi/Wands13.jpg"
+      },
+      {
+        "id": "Wands14",
+        "name": "Wands 14",
+        "image": "/cards/soimoi/Wands14.jpg"
+      }
+    ]
+  },
+  {
+    "id": "sola-busca",
+    "name": "Sola Busca",
+    "count": 78,
+    "license": "Public Domain",
+    "cover": null,
+    "cards": [
+      {
+        "id": "00",
+        "name": "Lá số 0",
+        "image": "/cards/sola-busca/00.jpg"
+      },
+      {
+        "id": "01",
+        "name": "Lá số 1",
+        "image": "/cards/sola-busca/01.jpg"
+      },
+      {
+        "id": "02",
+        "name": "Lá số 2",
+        "image": "/cards/sola-busca/02.jpg"
+      },
+      {
+        "id": "03",
+        "name": "Lá số 3",
+        "image": "/cards/sola-busca/03.jpg"
+      },
+      {
+        "id": "04",
+        "name": "Lá số 4",
+        "image": "/cards/sola-busca/04.jpg"
+      },
+      {
+        "id": "05",
+        "name": "Lá số 5",
+        "image": "/cards/sola-busca/05.jpg"
+      },
+      {
+        "id": "06",
+        "name": "Lá số 6",
+        "image": "/cards/sola-busca/06.jpg"
+      },
+      {
+        "id": "07",
+        "name": "Lá số 7",
+        "image": "/cards/sola-busca/07.jpg"
+      },
+      {
+        "id": "08",
+        "name": "Lá số 8",
+        "image": "/cards/sola-busca/08.jpg"
+      },
+      {
+        "id": "09",
+        "name": "Lá số 9",
+        "image": "/cards/sola-busca/09.jpg"
+      },
+      {
+        "id": "10",
+        "name": "Lá số 10",
+        "image": "/cards/sola-busca/10.jpg"
+      },
+      {
+        "id": "11",
+        "name": "Lá số 11",
+        "image": "/cards/sola-busca/11.jpg"
+      },
+      {
+        "id": "12",
+        "name": "Lá số 12",
+        "image": "/cards/sola-busca/12.jpg"
+      },
+      {
+        "id": "13",
+        "name": "Lá số 13",
+        "image": "/cards/sola-busca/13.jpg"
+      },
+      {
+        "id": "14",
+        "name": "Lá số 14",
+        "image": "/cards/sola-busca/14.jpg"
+      },
+      {
+        "id": "15",
+        "name": "Lá số 15",
+        "image": "/cards/sola-busca/15.jpg"
+      },
+      {
+        "id": "16",
+        "name": "Lá số 16",
+        "image": "/cards/sola-busca/16.jpg"
+      },
+      {
+        "id": "17",
+        "name": "Lá số 17",
+        "image": "/cards/sola-busca/17.jpg"
+      },
+      {
+        "id": "18",
+        "name": "Lá số 18",
+        "image": "/cards/sola-busca/18.jpg"
+      },
+      {
+        "id": "19",
+        "name": "Lá số 19",
+        "image": "/cards/sola-busca/19.jpg"
+      },
+      {
+        "id": "20",
+        "name": "Lá số 20",
+        "image": "/cards/sola-busca/20.jpg"
+      },
+      {
+        "id": "21",
+        "name": "Lá số 21",
+        "image": "/cards/sola-busca/21.jpg"
+      },
+      {
+        "id": "22",
+        "name": "Lá số 22",
+        "image": "/cards/sola-busca/22.jpg"
+      },
+      {
+        "id": "23",
+        "name": "Lá số 23",
+        "image": "/cards/sola-busca/23.jpg"
+      },
+      {
+        "id": "24",
+        "name": "Lá số 24",
+        "image": "/cards/sola-busca/24.jpg"
+      },
+      {
+        "id": "25",
+        "name": "Lá số 25",
+        "image": "/cards/sola-busca/25.jpg"
+      },
+      {
+        "id": "26",
+        "name": "Lá số 26",
+        "image": "/cards/sola-busca/26.jpg"
+      },
+      {
+        "id": "27",
+        "name": "Lá số 27",
+        "image": "/cards/sola-busca/27.jpg"
+      },
+      {
+        "id": "28",
+        "name": "Lá số 28",
+        "image": "/cards/sola-busca/28.jpg"
+      },
+      {
+        "id": "29",
+        "name": "Lá số 29",
+        "image": "/cards/sola-busca/29.jpg"
+      },
+      {
+        "id": "30",
+        "name": "Lá số 30",
+        "image": "/cards/sola-busca/30.jpg"
+      },
+      {
+        "id": "31",
+        "name": "Lá số 31",
+        "image": "/cards/sola-busca/31.jpg"
+      },
+      {
+        "id": "32",
+        "name": "Lá số 32",
+        "image": "/cards/sola-busca/32.jpg"
+      },
+      {
+        "id": "33",
+        "name": "Lá số 33",
+        "image": "/cards/sola-busca/33.jpg"
+      },
+      {
+        "id": "34",
+        "name": "Lá số 34",
+        "image": "/cards/sola-busca/34.jpg"
+      },
+      {
+        "id": "35",
+        "name": "Lá số 35",
+        "image": "/cards/sola-busca/35.jpg"
+      },
+      {
+        "id": "36",
+        "name": "Lá số 36",
+        "image": "/cards/sola-busca/36.jpg"
+      },
+      {
+        "id": "37",
+        "name": "Lá số 37",
+        "image": "/cards/sola-busca/37.jpg"
+      },
+      {
+        "id": "38",
+        "name": "Lá số 38",
+        "image": "/cards/sola-busca/38.jpg"
+      },
+      {
+        "id": "39",
+        "name": "Lá số 39",
+        "image": "/cards/sola-busca/39.jpg"
+      },
+      {
+        "id": "40",
+        "name": "Lá số 40",
+        "image": "/cards/sola-busca/40.jpg"
+      },
+      {
+        "id": "41",
+        "name": "Lá số 41",
+        "image": "/cards/sola-busca/41.jpg"
+      },
+      {
+        "id": "42",
+        "name": "Lá số 42",
+        "image": "/cards/sola-busca/42.jpg"
+      },
+      {
+        "id": "43",
+        "name": "Lá số 43",
+        "image": "/cards/sola-busca/43.jpg"
+      },
+      {
+        "id": "44",
+        "name": "Lá số 44",
+        "image": "/cards/sola-busca/44.jpg"
+      },
+      {
+        "id": "45",
+        "name": "Lá số 45",
+        "image": "/cards/sola-busca/45.jpg"
+      },
+      {
+        "id": "46",
+        "name": "Lá số 46",
+        "image": "/cards/sola-busca/46.jpg"
+      },
+      {
+        "id": "47",
+        "name": "Lá số 47",
+        "image": "/cards/sola-busca/47.jpg"
+      },
+      {
+        "id": "48",
+        "name": "Lá số 48",
+        "image": "/cards/sola-busca/48.jpg"
+      },
+      {
+        "id": "49",
+        "name": "Lá số 49",
+        "image": "/cards/sola-busca/49.jpg"
+      },
+      {
+        "id": "50",
+        "name": "Lá số 50",
+        "image": "/cards/sola-busca/50.jpg"
+      },
+      {
+        "id": "51",
+        "name": "Lá số 51",
+        "image": "/cards/sola-busca/51.jpg"
+      },
+      {
+        "id": "52",
+        "name": "Lá số 52",
+        "image": "/cards/sola-busca/52.jpg"
+      },
+      {
+        "id": "53",
+        "name": "Lá số 53",
+        "image": "/cards/sola-busca/53.jpg"
+      },
+      {
+        "id": "54",
+        "name": "Lá số 54",
+        "image": "/cards/sola-busca/54.jpg"
+      },
+      {
+        "id": "55",
+        "name": "Lá số 55",
+        "image": "/cards/sola-busca/55.jpg"
+      },
+      {
+        "id": "56",
+        "name": "Lá số 56",
+        "image": "/cards/sola-busca/56.jpg"
+      },
+      {
+        "id": "57",
+        "name": "Lá số 57",
+        "image": "/cards/sola-busca/57.jpg"
+      },
+      {
+        "id": "58",
+        "name": "Lá số 58",
+        "image": "/cards/sola-busca/58.jpg"
+      },
+      {
+        "id": "59",
+        "name": "Lá số 59",
+        "image": "/cards/sola-busca/59.jpg"
+      },
+      {
+        "id": "60",
+        "name": "Lá số 60",
+        "image": "/cards/sola-busca/60.jpg"
+      },
+      {
+        "id": "61",
+        "name": "Lá số 61",
+        "image": "/cards/sola-busca/61.jpg"
+      },
+      {
+        "id": "62",
+        "name": "Lá số 62",
+        "image": "/cards/sola-busca/62.jpg"
+      },
+      {
+        "id": "63",
+        "name": "Lá số 63",
+        "image": "/cards/sola-busca/63.jpg"
+      },
+      {
+        "id": "64",
+        "name": "Lá số 64",
+        "image": "/cards/sola-busca/64.jpg"
+      },
+      {
+        "id": "65",
+        "name": "Lá số 65",
+        "image": "/cards/sola-busca/65.jpg"
+      },
+      {
+        "id": "66",
+        "name": "Lá số 66",
+        "image": "/cards/sola-busca/66.jpg"
+      },
+      {
+        "id": "67",
+        "name": "Lá số 67",
+        "image": "/cards/sola-busca/67.jpg"
+      },
+      {
+        "id": "68",
+        "name": "Lá số 68",
+        "image": "/cards/sola-busca/68.jpg"
+      },
+      {
+        "id": "69",
+        "name": "Lá số 69",
+        "image": "/cards/sola-busca/69.jpg"
+      },
+      {
+        "id": "70",
+        "name": "Lá số 70",
+        "image": "/cards/sola-busca/70.jpg"
+      },
+      {
+        "id": "71",
+        "name": "Lá số 71",
+        "image": "/cards/sola-busca/71.jpg"
+      },
+      {
+        "id": "72",
+        "name": "Lá số 72",
+        "image": "/cards/sola-busca/72.jpg"
+      },
+      {
+        "id": "73",
+        "name": "Lá số 73",
+        "image": "/cards/sola-busca/73.jpg"
+      },
+      {
+        "id": "74",
+        "name": "Lá số 74",
+        "image": "/cards/sola-busca/74.jpg"
+      },
+      {
+        "id": "75",
+        "name": "Lá số 75",
+        "image": "/cards/sola-busca/75.jpg"
+      },
+      {
+        "id": "76",
+        "name": "Lá số 76",
+        "image": "/cards/sola-busca/76.jpg"
+      },
+      {
+        "id": "77",
+        "name": "Lá số 77",
+        "image": "/cards/sola-busca/77.jpg"
+      }
+    ]
+  },
+  {
+    "id": "marseille",
+    "name": "Tarot de Marseille",
+    "count": 78,
+    "license": "Public Domain",
+    "cover": null,
+    "cards": [
+      {
+        "id": "00_Le_Mat",
+        "name": "Le Mat",
+        "image": "/cards/marseille/00_Le_Mat.jpg"
+      },
+      {
+        "id": "01_Le_Bateleur",
+        "name": "Le Bateleur",
+        "image": "/cards/marseille/01_Le_Bateleur.jpg"
+      },
+      {
+        "id": "02_La_Papesse",
+        "name": "La Papesse",
+        "image": "/cards/marseille/02_La_Papesse.jpg"
+      },
+      {
+        "id": "03_L_Imperatrice",
+        "name": "L Imperatrice",
+        "image": "/cards/marseille/03_L_Imperatrice.jpg"
+      },
+      {
+        "id": "04_L_Empereur",
+        "name": "L Empereur",
+        "image": "/cards/marseille/04_L_Empereur.jpg"
+      },
+      {
+        "id": "05_Le_Pape",
+        "name": "Le Pape",
+        "image": "/cards/marseille/05_Le_Pape.jpg"
+      },
+      {
+        "id": "06_L_Amoureux",
+        "name": "L Amoureux",
+        "image": "/cards/marseille/06_L_Amoureux.jpg"
+      },
+      {
+        "id": "07_Le_Chariot",
+        "name": "Le Chariot",
+        "image": "/cards/marseille/07_Le_Chariot.jpg"
+      },
+      {
+        "id": "08_La_Justice",
+        "name": "La Justice",
+        "image": "/cards/marseille/08_La_Justice.jpg"
+      },
+      {
+        "id": "09_L_Ermite",
+        "name": "L Ermite",
+        "image": "/cards/marseille/09_L_Ermite.jpg"
+      },
+      {
+        "id": "10_La_Roue_de_Fortune",
+        "name": "La Roue de Fortune",
+        "image": "/cards/marseille/10_La_Roue_de_Fortune.jpg"
+      },
+      {
+        "id": "11_La_Force",
+        "name": "La Force",
+        "image": "/cards/marseille/11_La_Force.jpg"
+      },
+      {
+        "id": "12_Le_Pendu",
+        "name": "Le Pendu",
+        "image": "/cards/marseille/12_Le_Pendu.jpg"
+      },
+      {
+        "id": "13_La_Mort",
+        "name": "La Mort",
+        "image": "/cards/marseille/13_La_Mort.jpg"
+      },
+      {
+        "id": "14_Temperance",
+        "name": "Temperance",
+        "image": "/cards/marseille/14_Temperance.jpg"
+      },
+      {
+        "id": "15_Le_Diable",
+        "name": "Le Diable",
+        "image": "/cards/marseille/15_Le_Diable.jpg"
+      },
+      {
+        "id": "16_La_Maison_Dieu",
+        "name": "La Maison Dieu",
+        "image": "/cards/marseille/16_La_Maison_Dieu.jpg"
+      },
+      {
+        "id": "17_L_Etoile",
+        "name": "L Etoile",
+        "image": "/cards/marseille/17_L_Etoile.jpg"
+      },
+      {
+        "id": "18_La_Lune",
+        "name": "La Lune",
+        "image": "/cards/marseille/18_La_Lune.jpg"
+      },
+      {
+        "id": "19_Le_Soleil",
+        "name": "Le Soleil",
+        "image": "/cards/marseille/19_Le_Soleil.jpg"
+      },
+      {
+        "id": "20_Le_Jugement",
+        "name": "Le Jugement",
+        "image": "/cards/marseille/20_Le_Jugement.jpg"
+      },
+      {
+        "id": "21_Le_Monde",
+        "name": "Le Monde",
+        "image": "/cards/marseille/21_Le_Monde.jpg"
+      },
+      {
+        "id": "Cups01",
+        "name": "Cups 1",
+        "image": "/cards/marseille/Cups01.jpg"
+      },
+      {
+        "id": "Cups02",
+        "name": "Cups 2",
+        "image": "/cards/marseille/Cups02.jpg"
+      },
+      {
+        "id": "Cups03",
+        "name": "Cups 3",
+        "image": "/cards/marseille/Cups03.jpg"
+      },
+      {
+        "id": "Cups04",
+        "name": "Cups 4",
+        "image": "/cards/marseille/Cups04.jpg"
+      },
+      {
+        "id": "Cups05",
+        "name": "Cups 5",
+        "image": "/cards/marseille/Cups05.jpg"
+      },
+      {
+        "id": "Cups06",
+        "name": "Cups 6",
+        "image": "/cards/marseille/Cups06.jpg"
+      },
+      {
+        "id": "Cups07",
+        "name": "Cups 7",
+        "image": "/cards/marseille/Cups07.jpg"
+      },
+      {
+        "id": "Cups08",
+        "name": "Cups 8",
+        "image": "/cards/marseille/Cups08.jpg"
+      },
+      {
+        "id": "Cups09",
+        "name": "Cups 9",
+        "image": "/cards/marseille/Cups09.jpg"
+      },
+      {
+        "id": "Cups10",
+        "name": "Cups 10",
+        "image": "/cards/marseille/Cups10.jpg"
+      },
+      {
+        "id": "Cups11",
+        "name": "Cups 11",
+        "image": "/cards/marseille/Cups11.jpg"
+      },
+      {
+        "id": "Cups12",
+        "name": "Cups 12",
+        "image": "/cards/marseille/Cups12.jpg"
+      },
+      {
+        "id": "Cups13",
+        "name": "Cups 13",
+        "image": "/cards/marseille/Cups13.jpg"
+      },
+      {
+        "id": "Cups14",
+        "name": "Cups 14",
+        "image": "/cards/marseille/Cups14.jpg"
+      },
+      {
+        "id": "Pents01",
+        "name": "Pents 1",
+        "image": "/cards/marseille/Pents01.jpg"
+      },
+      {
+        "id": "Pents02",
+        "name": "Pents 2",
+        "image": "/cards/marseille/Pents02.jpg"
+      },
+      {
+        "id": "Pents03",
+        "name": "Pents 3",
+        "image": "/cards/marseille/Pents03.jpg"
+      },
+      {
+        "id": "Pents04",
+        "name": "Pents 4",
+        "image": "/cards/marseille/Pents04.jpg"
+      },
+      {
+        "id": "Pents05",
+        "name": "Pents 5",
+        "image": "/cards/marseille/Pents05.jpg"
+      },
+      {
+        "id": "Pents06",
+        "name": "Pents 6",
+        "image": "/cards/marseille/Pents06.jpg"
+      },
+      {
+        "id": "Pents07",
+        "name": "Pents 7",
+        "image": "/cards/marseille/Pents07.jpg"
+      },
+      {
+        "id": "Pents08",
+        "name": "Pents 8",
+        "image": "/cards/marseille/Pents08.jpg"
+      },
+      {
+        "id": "Pents09",
+        "name": "Pents 9",
+        "image": "/cards/marseille/Pents09.jpg"
+      },
+      {
+        "id": "Pents10",
+        "name": "Pents 10",
+        "image": "/cards/marseille/Pents10.jpg"
+      },
+      {
+        "id": "Pents11",
+        "name": "Pents 11",
+        "image": "/cards/marseille/Pents11.jpg"
+      },
+      {
+        "id": "Pents12",
+        "name": "Pents 12",
+        "image": "/cards/marseille/Pents12.jpg"
+      },
+      {
+        "id": "Pents13",
+        "name": "Pents 13",
+        "image": "/cards/marseille/Pents13.jpg"
+      },
+      {
+        "id": "Pents14",
+        "name": "Pents 14",
+        "image": "/cards/marseille/Pents14.jpg"
+      },
+      {
+        "id": "Swords01",
+        "name": "Swords 1",
+        "image": "/cards/marseille/Swords01.jpg"
+      },
+      {
+        "id": "Swords02",
+        "name": "Swords 2",
+        "image": "/cards/marseille/Swords02.jpg"
+      },
+      {
+        "id": "Swords03",
+        "name": "Swords 3",
+        "image": "/cards/marseille/Swords03.jpg"
+      },
+      {
+        "id": "Swords04",
+        "name": "Swords 4",
+        "image": "/cards/marseille/Swords04.jpg"
+      },
+      {
+        "id": "Swords05",
+        "name": "Swords 5",
+        "image": "/cards/marseille/Swords05.jpg"
+      },
+      {
+        "id": "Swords06",
+        "name": "Swords 6",
+        "image": "/cards/marseille/Swords06.jpg"
+      },
+      {
+        "id": "Swords07",
+        "name": "Swords 7",
+        "image": "/cards/marseille/Swords07.jpg"
+      },
+      {
+        "id": "Swords08",
+        "name": "Swords 8",
+        "image": "/cards/marseille/Swords08.jpg"
+      },
+      {
+        "id": "Swords09",
+        "name": "Swords 9",
+        "image": "/cards/marseille/Swords09.jpg"
+      },
+      {
+        "id": "Swords10",
+        "name": "Swords 10",
+        "image": "/cards/marseille/Swords10.jpg"
+      },
+      {
+        "id": "Swords11",
+        "name": "Swords 11",
+        "image": "/cards/marseille/Swords11.jpg"
+      },
+      {
+        "id": "Swords12",
+        "name": "Swords 12",
+        "image": "/cards/marseille/Swords12.jpg"
+      },
+      {
+        "id": "Swords13",
+        "name": "Swords 13",
+        "image": "/cards/marseille/Swords13.jpg"
+      },
+      {
+        "id": "Swords14",
+        "name": "Swords 14",
+        "image": "/cards/marseille/Swords14.jpg"
+      },
+      {
+        "id": "Wands01",
+        "name": "Wands 1",
+        "image": "/cards/marseille/Wands01.jpg"
+      },
+      {
+        "id": "Wands02",
+        "name": "Wands 2",
+        "image": "/cards/marseille/Wands02.jpg"
+      },
+      {
+        "id": "Wands03",
+        "name": "Wands 3",
+        "image": "/cards/marseille/Wands03.jpg"
+      },
+      {
+        "id": "Wands04",
+        "name": "Wands 4",
+        "image": "/cards/marseille/Wands04.jpg"
+      },
+      {
+        "id": "Wands05",
+        "name": "Wands 5",
+        "image": "/cards/marseille/Wands05.jpg"
+      },
+      {
+        "id": "Wands06",
+        "name": "Wands 6",
+        "image": "/cards/marseille/Wands06.jpg"
+      },
+      {
+        "id": "Wands07",
+        "name": "Wands 7",
+        "image": "/cards/marseille/Wands07.jpg"
+      },
+      {
+        "id": "Wands08",
+        "name": "Wands 8",
+        "image": "/cards/marseille/Wands08.jpg"
+      },
+      {
+        "id": "Wands09",
+        "name": "Wands 9",
+        "image": "/cards/marseille/Wands09.jpg"
+      },
+      {
+        "id": "Wands10",
+        "name": "Wands 10",
+        "image": "/cards/marseille/Wands10.jpg"
+      },
+      {
+        "id": "Wands11",
+        "name": "Wands 11",
+        "image": "/cards/marseille/Wands11.jpg"
+      },
+      {
+        "id": "Wands12",
+        "name": "Wands 12",
+        "image": "/cards/marseille/Wands12.jpg"
+      },
+      {
+        "id": "Wands13",
+        "name": "Wands 13",
+        "image": "/cards/marseille/Wands13.jpg"
+      },
+      {
+        "id": "Wands14",
+        "name": "Wands 14",
+        "image": "/cards/marseille/Wands14.jpg"
+      }
+    ]
+  },
+  {
+    "id": "etteilla",
+    "name": "Grand Etteilla",
+    "count": 75,
+    "license": "Public Domain",
+    "cover": null,
+    "cards": [
+      {
+        "id": "01_Etteilla",
+        "name": "Etteilla",
+        "image": "/cards/etteilla/01_Etteilla.jpg"
+      },
+      {
+        "id": "02_Eclaircissement",
+        "name": "Eclaircissement",
+        "image": "/cards/etteilla/02_Eclaircissement.jpg"
+      },
+      {
+        "id": "03_Propos",
+        "name": "Propos",
+        "image": "/cards/etteilla/03_Propos.jpg"
+      },
+      {
+        "id": "04_Depouillement",
+        "name": "Depouillement",
+        "image": "/cards/etteilla/04_Depouillement.jpg"
+      },
+      {
+        "id": "05_Voyage",
+        "name": "Voyage",
+        "image": "/cards/etteilla/05_Voyage.jpg"
+      },
+      {
+        "id": "06_Nuit",
+        "name": "Nuit",
+        "image": "/cards/etteilla/06_Nuit.jpg"
+      },
+      {
+        "id": "07_Appui",
+        "name": "Appui",
+        "image": "/cards/etteilla/07_Appui.jpg"
+      },
+      {
+        "id": "08_Etteilla",
+        "name": "Etteilla",
+        "image": "/cards/etteilla/08_Etteilla.jpg"
+      },
+      {
+        "id": "09_La_Justice",
+        "name": "La Justice",
+        "image": "/cards/etteilla/09_La_Justice.jpg"
+      },
+      {
+        "id": "10_La_Temperance",
+        "name": "La Temperance",
+        "image": "/cards/etteilla/10_La_Temperance.jpg"
+      },
+      {
+        "id": "11_La_Force",
+        "name": "La Force",
+        "image": "/cards/etteilla/11_La_Force.jpg"
+      },
+      {
+        "id": "12_La_Prudence",
+        "name": "La Prudence",
+        "image": "/cards/etteilla/12_La_Prudence.jpg"
+      },
+      {
+        "id": "13_Mariage",
+        "name": "Mariage",
+        "image": "/cards/etteilla/13_Mariage.jpg"
+      },
+      {
+        "id": "14_Force_Majeure",
+        "name": "Force Majeure",
+        "image": "/cards/etteilla/14_Force_Majeure.jpg"
+      },
+      {
+        "id": "15_Maladie",
+        "name": "Maladie",
+        "image": "/cards/etteilla/15_Maladie.jpg"
+      },
+      {
+        "id": "16_Le_Jugement_Dernier",
+        "name": "Le Jugement Dernier",
+        "image": "/cards/etteilla/16_Le_Jugement_Dernier.jpg"
+      },
+      {
+        "id": "17_La_Mort",
+        "name": "La Mort",
+        "image": "/cards/etteilla/17_La_Mort.jpg"
+      },
+      {
+        "id": "18_Traitre",
+        "name": "Traitre",
+        "image": "/cards/etteilla/18_Traitre.jpg"
+      },
+      {
+        "id": "19_Misere",
+        "name": "Misere",
+        "image": "/cards/etteilla/19_Misere.jpg"
+      },
+      {
+        "id": "20_Fortune",
+        "name": "Fortune",
+        "image": "/cards/etteilla/20_Fortune.jpg"
+      },
+      {
+        "id": "21_Dissension",
+        "name": "Dissension",
+        "image": "/cards/etteilla/21_Dissension.jpg"
+      },
+      {
+        "id": "22_Homme_de_Campagne",
+        "name": "Homme de Campagne",
+        "image": "/cards/etteilla/22_Homme_de_Campagne.jpg"
+      },
+      {
+        "id": "23_Femme_de_Campagne",
+        "name": "Femme de Campagne",
+        "image": "/cards/etteilla/23_Femme_de_Campagne.jpg"
+      },
+      {
+        "id": "24_Depart",
+        "name": "Depart",
+        "image": "/cards/etteilla/24_Depart.jpg"
+      },
+      {
+        "id": "25_Etranger",
+        "name": "Etranger",
+        "image": "/cards/etteilla/25_Etranger.jpg"
+      },
+      {
+        "id": "26_Trahison",
+        "name": "Trahison",
+        "image": "/cards/etteilla/26_Trahison.jpg"
+      },
+      {
+        "id": "27_Retard",
+        "name": "Retard",
+        "image": "/cards/etteilla/27_Retard.jpg"
+      },
+      {
+        "id": "28_Campagne",
+        "name": "Campagne",
+        "image": "/cards/etteilla/28_Campagne.jpg"
+      },
+      {
+        "id": "29_Pour_Parler",
+        "name": "Pour Parler",
+        "image": "/cards/etteilla/29_Pour_Parler.jpg"
+      },
+      {
+        "id": "30_Domestique",
+        "name": "Domestique",
+        "image": "/cards/etteilla/30_Domestique.jpg"
+      },
+      {
+        "id": "31_Or",
+        "name": "Or",
+        "image": "/cards/etteilla/31_Or.jpg"
+      },
+      {
+        "id": "32_Societe",
+        "name": "Societe",
+        "image": "/cards/etteilla/32_Societe.jpg"
+      },
+      {
+        "id": "33_Entreprises",
+        "name": "Entreprises",
+        "image": "/cards/etteilla/33_Entreprises.jpg"
+      },
+      {
+        "id": "34_Chagrin",
+        "name": "Chagrin",
+        "image": "/cards/etteilla/34_Chagrin.jpg"
+      },
+      {
+        "id": "35_Naissance",
+        "name": "Naissance",
+        "image": "/cards/etteilla/35_Naissance.jpg"
+      },
+      {
+        "id": "36_Homme_Blond",
+        "name": "Homme Blond",
+        "image": "/cards/etteilla/36_Homme_Blond.jpg"
+      },
+      {
+        "id": "37_Femme_Blonde",
+        "name": "Femme Blonde",
+        "image": "/cards/etteilla/37_Femme_Blonde.jpg"
+      },
+      {
+        "id": "38_Arrive",
+        "name": "Arrive",
+        "image": "/cards/etteilla/38_Arrive.jpg"
+      },
+      {
+        "id": "39_Garcon_Blond",
+        "name": "Garcon Blond",
+        "image": "/cards/etteilla/39_Garcon_Blond.jpg"
+      },
+      {
+        "id": "40_La_Ville",
+        "name": "La Ville",
+        "image": "/cards/etteilla/40_La_Ville.jpg"
+      },
+      {
+        "id": "41_Victoire",
+        "name": "Victoire",
+        "image": "/cards/etteilla/41_Victoire.jpg"
+      },
+      {
+        "id": "42_Fille_Blonde",
+        "name": "Fille Blonde",
+        "image": "/cards/etteilla/42_Fille_Blonde.jpg"
+      },
+      {
+        "id": "43_La_Pensee",
+        "name": "La Pensee",
+        "image": "/cards/etteilla/43_La_Pensee.jpg"
+      },
+      {
+        "id": "44_Le_Passe",
+        "name": "Le Passe",
+        "image": "/cards/etteilla/44_Le_Passe.jpg"
+      },
+      {
+        "id": "45_Heritage",
+        "name": "Heritage",
+        "image": "/cards/etteilla/45_Heritage.jpg"
+      },
+      {
+        "id": "46_Ennui",
+        "name": "Ennui",
+        "image": "/cards/etteilla/46_Ennui.jpg"
+      },
+      {
+        "id": "47_Reussite",
+        "name": "Reussite",
+        "image": "/cards/etteilla/47_Reussite.jpg"
+      },
+      {
+        "id": "48_Amour",
+        "name": "Amour",
+        "image": "/cards/etteilla/48_Amour.jpg"
+      },
+      {
+        "id": "50_Homme_de_Robe",
+        "name": "Homme de Robe",
+        "image": "/cards/etteilla/50_Homme_de_Robe.jpg"
+      },
+      {
+        "id": "51_Veuvage",
+        "name": "Veuvage",
+        "image": "/cards/etteilla/51_Veuvage.jpg"
+      },
+      {
+        "id": "52_Militaire",
+        "name": "Militaire",
+        "image": "/cards/etteilla/52_Militaire.jpg"
+      },
+      {
+        "id": "53_Espion",
+        "name": "Espion",
+        "image": "/cards/etteilla/53_Espion.jpg"
+      },
+      {
+        "id": "54_Pleurs",
+        "name": "Pleurs",
+        "image": "/cards/etteilla/54_Pleurs.jpg"
+      },
+      {
+        "id": "55_Ecclesiastique",
+        "name": "Ecclesiastique",
+        "image": "/cards/etteilla/55_Ecclesiastique.jpg"
+      },
+      {
+        "id": "56_Critique",
+        "name": "Critique",
+        "image": "/cards/etteilla/56_Critique.jpg"
+      },
+      {
+        "id": "57_Esperance",
+        "name": "Esperance",
+        "image": "/cards/etteilla/57_Esperance.jpg"
+      },
+      {
+        "id": "58_Route",
+        "name": "Route",
+        "image": "/cards/etteilla/58_Route.jpg"
+      },
+      {
+        "id": "59_Perte",
+        "name": "Perte",
+        "image": "/cards/etteilla/59_Perte.jpg"
+      },
+      {
+        "id": "60_Solitude",
+        "name": "Solitude",
+        "image": "/cards/etteilla/60_Solitude.jpg"
+      },
+      {
+        "id": "61_Eloignement",
+        "name": "Eloignement",
+        "image": "/cards/etteilla/61_Eloignement.jpg"
+      },
+      {
+        "id": "62_Amitie",
+        "name": "Amitie",
+        "image": "/cards/etteilla/62_Amitie.jpg"
+      },
+      {
+        "id": "64_Homme_Brun",
+        "name": "Homme Brun",
+        "image": "/cards/etteilla/64_Homme_Brun.jpg"
+      },
+      {
+        "id": "65_Femme_Brune",
+        "name": "Femme Brune",
+        "image": "/cards/etteilla/65_Femme_Brune.jpg"
+      },
+      {
+        "id": "66_Utilite",
+        "name": "Utilite",
+        "image": "/cards/etteilla/66_Utilite.jpg"
+      },
+      {
+        "id": "67_Garcon_Brun",
+        "name": "Garcon Brun",
+        "image": "/cards/etteilla/67_Garcon_Brun.jpg"
+      },
+      {
+        "id": "68_La_Maison",
+        "name": "La Maison",
+        "image": "/cards/etteilla/68_La_Maison.jpg"
+      },
+      {
+        "id": "69_Effet",
+        "name": "Effet",
+        "image": "/cards/etteilla/69_Effet.jpg"
+      },
+      {
+        "id": "70_Fille_Brune",
+        "name": "Fille Brune",
+        "image": "/cards/etteilla/70_Fille_Brune.jpg"
+      },
+      {
+        "id": "71_Argent",
+        "name": "Argent",
+        "image": "/cards/etteilla/71_Argent.jpg"
+      },
+      {
+        "id": "72_Le_Present",
+        "name": "Le Present",
+        "image": "/cards/etteilla/72_Le_Present.jpg"
+      },
+      {
+        "id": "73_Amant_Amante",
+        "name": "Amant Amante",
+        "image": "/cards/etteilla/73_Amant_Amante.jpg"
+      },
+      {
+        "id": "74_Un_Present",
+        "name": "Un Present",
+        "image": "/cards/etteilla/74_Un_Present.jpg"
+      },
+      {
+        "id": "75_Noble",
+        "name": "Noble",
+        "image": "/cards/etteilla/75_Noble.jpg"
+      },
+      {
+        "id": "76_Ambarras",
+        "name": "Ambarras",
+        "image": "/cards/etteilla/76_Ambarras.jpg"
+      },
+      {
+        "id": "77_Parfait_Contentement",
+        "name": "Parfait Contentement",
+        "image": "/cards/etteilla/77_Parfait_Contentement.jpg"
+      }
+    ]
+  },
+  {
+    "id": "vieville",
+    "name": "Tarot de Viéville",
+    "count": 78,
+    "license": "Public Domain",
+    "cover": "/cards/vieville/Cover.jpg",
+    "cards": [
+      {
+        "id": "00_Le_Mat",
+        "name": "Le Mat",
+        "image": "/cards/vieville/00_Le_Mat.jpg"
+      },
+      {
+        "id": "01_Le_Bateleur",
+        "name": "Le Bateleur",
+        "image": "/cards/vieville/01_Le_Bateleur.jpg"
+      },
+      {
+        "id": "02_La_Papesse",
+        "name": "La Papesse",
+        "image": "/cards/vieville/02_La_Papesse.jpg"
+      },
+      {
+        "id": "03_L_Imperatrice",
+        "name": "L Imperatrice",
+        "image": "/cards/vieville/03_L_Imperatrice.jpg"
+      },
+      {
+        "id": "04_L_Empereur",
+        "name": "L Empereur",
+        "image": "/cards/vieville/04_L_Empereur.jpg"
+      },
+      {
+        "id": "05_Le_Pape",
+        "name": "Le Pape",
+        "image": "/cards/vieville/05_Le_Pape.jpg"
+      },
+      {
+        "id": "06_L_Amoureux",
+        "name": "L Amoureux",
+        "image": "/cards/vieville/06_L_Amoureux.jpg"
+      },
+      {
+        "id": "07_La_Justice",
+        "name": "La Justice",
+        "image": "/cards/vieville/07_La_Justice.jpg"
+      },
+      {
+        "id": "08_Le_Chariot",
+        "name": "Le Chariot",
+        "image": "/cards/vieville/08_Le_Chariot.jpg"
+      },
+      {
+        "id": "09_La_Force",
+        "name": "La Force",
+        "image": "/cards/vieville/09_La_Force.jpg"
+      },
+      {
+        "id": "10_La_Roue_de_Fortune",
+        "name": "La Roue de Fortune",
+        "image": "/cards/vieville/10_La_Roue_de_Fortune.jpg"
+      },
+      {
+        "id": "11_L_Ermite",
+        "name": "L Ermite",
+        "image": "/cards/vieville/11_L_Ermite.jpg"
+      },
+      {
+        "id": "12_Le_Pendu",
+        "name": "Le Pendu",
+        "image": "/cards/vieville/12_Le_Pendu.jpg"
+      },
+      {
+        "id": "13_La_Mort",
+        "name": "La Mort",
+        "image": "/cards/vieville/13_La_Mort.jpg"
+      },
+      {
+        "id": "14_Temperance",
+        "name": "Temperance",
+        "image": "/cards/vieville/14_Temperance.jpg"
+      },
+      {
+        "id": "15_Le_Diable",
+        "name": "Le Diable",
+        "image": "/cards/vieville/15_Le_Diable.jpg"
+      },
+      {
+        "id": "16_La_Maison_Dieu",
+        "name": "La Maison Dieu",
+        "image": "/cards/vieville/16_La_Maison_Dieu.jpg"
+      },
+      {
+        "id": "17_L_Etoile",
+        "name": "L Etoile",
+        "image": "/cards/vieville/17_L_Etoile.jpg"
+      },
+      {
+        "id": "18_La_Lune",
+        "name": "La Lune",
+        "image": "/cards/vieville/18_La_Lune.jpg"
+      },
+      {
+        "id": "19_Le_Soleil",
+        "name": "Le Soleil",
+        "image": "/cards/vieville/19_Le_Soleil.jpg"
+      },
+      {
+        "id": "20_Le_Jugement",
+        "name": "Le Jugement",
+        "image": "/cards/vieville/20_Le_Jugement.jpg"
+      },
+      {
+        "id": "21_Le_Monde",
+        "name": "Le Monde",
+        "image": "/cards/vieville/21_Le_Monde.jpg"
+      },
+      {
+        "id": "Cups01",
+        "name": "Cups 1",
+        "image": "/cards/vieville/Cups01.jpg"
+      },
+      {
+        "id": "Cups02",
+        "name": "Cups 2",
+        "image": "/cards/vieville/Cups02.jpg"
+      },
+      {
+        "id": "Cups03",
+        "name": "Cups 3",
+        "image": "/cards/vieville/Cups03.jpg"
+      },
+      {
+        "id": "Cups04",
+        "name": "Cups 4",
+        "image": "/cards/vieville/Cups04.jpg"
+      },
+      {
+        "id": "Cups05",
+        "name": "Cups 5",
+        "image": "/cards/vieville/Cups05.jpg"
+      },
+      {
+        "id": "Cups06",
+        "name": "Cups 6",
+        "image": "/cards/vieville/Cups06.jpg"
+      },
+      {
+        "id": "Cups07",
+        "name": "Cups 7",
+        "image": "/cards/vieville/Cups07.jpg"
+      },
+      {
+        "id": "Cups08",
+        "name": "Cups 8",
+        "image": "/cards/vieville/Cups08.jpg"
+      },
+      {
+        "id": "Cups09",
+        "name": "Cups 9",
+        "image": "/cards/vieville/Cups09.jpg"
+      },
+      {
+        "id": "Cups10",
+        "name": "Cups 10",
+        "image": "/cards/vieville/Cups10.jpg"
+      },
+      {
+        "id": "Cups11",
+        "name": "Cups 11",
+        "image": "/cards/vieville/Cups11.jpg"
+      },
+      {
+        "id": "Cups12",
+        "name": "Cups 12",
+        "image": "/cards/vieville/Cups12.jpg"
+      },
+      {
+        "id": "Cups13",
+        "name": "Cups 13",
+        "image": "/cards/vieville/Cups13.jpg"
+      },
+      {
+        "id": "Cups14",
+        "name": "Cups 14",
+        "image": "/cards/vieville/Cups14.jpg"
+      },
+      {
+        "id": "Pents01",
+        "name": "Pents 1",
+        "image": "/cards/vieville/Pents01.jpg"
+      },
+      {
+        "id": "Pents02",
+        "name": "Pents 2",
+        "image": "/cards/vieville/Pents02.jpg"
+      },
+      {
+        "id": "Pents03",
+        "name": "Pents 3",
+        "image": "/cards/vieville/Pents03.jpg"
+      },
+      {
+        "id": "Pents04",
+        "name": "Pents 4",
+        "image": "/cards/vieville/Pents04.jpg"
+      },
+      {
+        "id": "Pents05",
+        "name": "Pents 5",
+        "image": "/cards/vieville/Pents05.jpg"
+      },
+      {
+        "id": "Pents06",
+        "name": "Pents 6",
+        "image": "/cards/vieville/Pents06.jpg"
+      },
+      {
+        "id": "Pents07",
+        "name": "Pents 7",
+        "image": "/cards/vieville/Pents07.jpg"
+      },
+      {
+        "id": "Pents08",
+        "name": "Pents 8",
+        "image": "/cards/vieville/Pents08.jpg"
+      },
+      {
+        "id": "Pents09",
+        "name": "Pents 9",
+        "image": "/cards/vieville/Pents09.jpg"
+      },
+      {
+        "id": "Pents10",
+        "name": "Pents 10",
+        "image": "/cards/vieville/Pents10.jpg"
+      },
+      {
+        "id": "Pents11",
+        "name": "Pents 11",
+        "image": "/cards/vieville/Pents11.jpg"
+      },
+      {
+        "id": "Pents12",
+        "name": "Pents 12",
+        "image": "/cards/vieville/Pents12.jpg"
+      },
+      {
+        "id": "Pents13",
+        "name": "Pents 13",
+        "image": "/cards/vieville/Pents13.jpg"
+      },
+      {
+        "id": "Pents14",
+        "name": "Pents 14",
+        "image": "/cards/vieville/Pents14.jpg"
+      },
+      {
+        "id": "Swords01",
+        "name": "Swords 1",
+        "image": "/cards/vieville/Swords01.jpg"
+      },
+      {
+        "id": "Swords02",
+        "name": "Swords 2",
+        "image": "/cards/vieville/Swords02.jpg"
+      },
+      {
+        "id": "Swords03",
+        "name": "Swords 3",
+        "image": "/cards/vieville/Swords03.jpg"
+      },
+      {
+        "id": "Swords04",
+        "name": "Swords 4",
+        "image": "/cards/vieville/Swords04.jpg"
+      },
+      {
+        "id": "Swords05",
+        "name": "Swords 5",
+        "image": "/cards/vieville/Swords05.jpg"
+      },
+      {
+        "id": "Swords06",
+        "name": "Swords 6",
+        "image": "/cards/vieville/Swords06.jpg"
+      },
+      {
+        "id": "Swords07",
+        "name": "Swords 7",
+        "image": "/cards/vieville/Swords07.jpg"
+      },
+      {
+        "id": "Swords08",
+        "name": "Swords 8",
+        "image": "/cards/vieville/Swords08.jpg"
+      },
+      {
+        "id": "Swords09",
+        "name": "Swords 9",
+        "image": "/cards/vieville/Swords09.jpg"
+      },
+      {
+        "id": "Swords10",
+        "name": "Swords 10",
+        "image": "/cards/vieville/Swords10.jpg"
+      },
+      {
+        "id": "Swords11",
+        "name": "Swords 11",
+        "image": "/cards/vieville/Swords11.jpg"
+      },
+      {
+        "id": "Swords12",
+        "name": "Swords 12",
+        "image": "/cards/vieville/Swords12.jpg"
+      },
+      {
+        "id": "Swords13",
+        "name": "Swords 13",
+        "image": "/cards/vieville/Swords13.jpg"
+      },
+      {
+        "id": "Swords14",
+        "name": "Swords 14",
+        "image": "/cards/vieville/Swords14.jpg"
+      },
+      {
+        "id": "Wands01",
+        "name": "Wands 1",
+        "image": "/cards/vieville/Wands01.jpg"
+      },
+      {
+        "id": "Wands02",
+        "name": "Wands 2",
+        "image": "/cards/vieville/Wands02.jpg"
+      },
+      {
+        "id": "Wands03",
+        "name": "Wands 3",
+        "image": "/cards/vieville/Wands03.jpg"
+      },
+      {
+        "id": "Wands04",
+        "name": "Wands 4",
+        "image": "/cards/vieville/Wands04.jpg"
+      },
+      {
+        "id": "Wands05",
+        "name": "Wands 5",
+        "image": "/cards/vieville/Wands05.jpg"
+      },
+      {
+        "id": "Wands06",
+        "name": "Wands 6",
+        "image": "/cards/vieville/Wands06.jpg"
+      },
+      {
+        "id": "Wands07",
+        "name": "Wands 7",
+        "image": "/cards/vieville/Wands07.jpg"
+      },
+      {
+        "id": "Wands08",
+        "name": "Wands 8",
+        "image": "/cards/vieville/Wands08.jpg"
+      },
+      {
+        "id": "Wands09",
+        "name": "Wands 9",
+        "image": "/cards/vieville/Wands09.jpg"
+      },
+      {
+        "id": "Wands10",
+        "name": "Wands 10",
+        "image": "/cards/vieville/Wands10.jpg"
+      },
+      {
+        "id": "Wands11",
+        "name": "Wands 11",
+        "image": "/cards/vieville/Wands11.jpg"
+      },
+      {
+        "id": "Wands12",
+        "name": "Wands 12",
+        "image": "/cards/vieville/Wands12.jpg"
+      },
+      {
+        "id": "Wands13",
+        "name": "Wands 13",
+        "image": "/cards/vieville/Wands13.jpg"
+      },
+      {
+        "id": "Wands14",
+        "name": "Wands 14",
+        "image": "/cards/vieville/Wands14.jpg"
+      }
+    ]
+  },
+  {
+    "id": "visconti-sforza",
+    "name": "Visconti-Sforza",
+    "count": 73,
+    "license": "Public Domain",
+    "cover": null,
+    "cards": [
+      {
+        "id": "00_Fool",
+        "name": "Fool",
+        "image": "/cards/visconti-sforza/00_Fool.jpg"
+      },
+      {
+        "id": "01_Magician",
+        "name": "Magician",
+        "image": "/cards/visconti-sforza/01_Magician.jpg"
+      },
+      {
+        "id": "02_High_Priestess",
+        "name": "High Priestess",
+        "image": "/cards/visconti-sforza/02_High_Priestess.jpg"
+      },
+      {
+        "id": "03_Empress",
+        "name": "Empress",
+        "image": "/cards/visconti-sforza/03_Empress.jpg"
+      },
+      {
+        "id": "04_Emperor",
+        "name": "Emperor",
+        "image": "/cards/visconti-sforza/04_Emperor.jpg"
+      },
+      {
+        "id": "05_Hierophant",
+        "name": "Hierophant",
+        "image": "/cards/visconti-sforza/05_Hierophant.jpg"
+      },
+      {
+        "id": "06_Lovers",
+        "name": "Lovers",
+        "image": "/cards/visconti-sforza/06_Lovers.jpg"
+      },
+      {
+        "id": "07_Chariot",
+        "name": "Chariot",
+        "image": "/cards/visconti-sforza/07_Chariot.jpg"
+      },
+      {
+        "id": "08_Justice",
+        "name": "Justice",
+        "image": "/cards/visconti-sforza/08_Justice.jpg"
+      },
+      {
+        "id": "09_Hermit",
+        "name": "Hermit",
+        "image": "/cards/visconti-sforza/09_Hermit.jpg"
+      },
+      {
+        "id": "10_Wheel_of_Fortune",
+        "name": "Wheel of Fortune",
+        "image": "/cards/visconti-sforza/10_Wheel_of_Fortune.jpg"
+      },
+      {
+        "id": "11_Strength",
+        "name": "Strength",
+        "image": "/cards/visconti-sforza/11_Strength.jpg"
+      },
+      {
+        "id": "12_Hanged_Man",
+        "name": "Hanged Man",
+        "image": "/cards/visconti-sforza/12_Hanged_Man.jpg"
+      },
+      {
+        "id": "13_Death",
+        "name": "Death",
+        "image": "/cards/visconti-sforza/13_Death.jpg"
+      },
+      {
+        "id": "14_Temperance",
+        "name": "Temperance",
+        "image": "/cards/visconti-sforza/14_Temperance.jpg"
+      },
+      {
+        "id": "17_Star",
+        "name": "Star",
+        "image": "/cards/visconti-sforza/17_Star.jpg"
+      },
+      {
+        "id": "18_Moon",
+        "name": "Moon",
+        "image": "/cards/visconti-sforza/18_Moon.jpg"
+      },
+      {
+        "id": "19_Sun",
+        "name": "Sun",
+        "image": "/cards/visconti-sforza/19_Sun.jpg"
+      },
+      {
+        "id": "20_Judgement",
+        "name": "Judgement",
+        "image": "/cards/visconti-sforza/20_Judgement.jpg"
+      },
+      {
+        "id": "21_World",
+        "name": "World",
+        "image": "/cards/visconti-sforza/21_World.jpg"
+      },
+      {
+        "id": "Cups01",
+        "name": "Cups 1",
+        "image": "/cards/visconti-sforza/Cups01.jpg"
+      },
+      {
+        "id": "Cups02",
+        "name": "Cups 2",
+        "image": "/cards/visconti-sforza/Cups02.jpg"
+      },
+      {
+        "id": "Cups03",
+        "name": "Cups 3",
+        "image": "/cards/visconti-sforza/Cups03.jpg"
+      },
+      {
+        "id": "Cups04",
+        "name": "Cups 4",
+        "image": "/cards/visconti-sforza/Cups04.jpg"
+      },
+      {
+        "id": "Cups05",
+        "name": "Cups 5",
+        "image": "/cards/visconti-sforza/Cups05.jpg"
+      },
+      {
+        "id": "Cups06",
+        "name": "Cups 6",
+        "image": "/cards/visconti-sforza/Cups06.jpg"
+      },
+      {
+        "id": "Cups07",
+        "name": "Cups 7",
+        "image": "/cards/visconti-sforza/Cups07.jpg"
+      },
+      {
+        "id": "Cups08",
+        "name": "Cups 8",
+        "image": "/cards/visconti-sforza/Cups08.jpg"
+      },
+      {
+        "id": "Cups09",
+        "name": "Cups 9",
+        "image": "/cards/visconti-sforza/Cups09.jpg"
+      },
+      {
+        "id": "Cups10",
+        "name": "Cups 10",
+        "image": "/cards/visconti-sforza/Cups10.jpg"
+      },
+      {
+        "id": "Cups11",
+        "name": "Cups 11",
+        "image": "/cards/visconti-sforza/Cups11.jpg"
+      },
+      {
+        "id": "Cups12",
+        "name": "Cups 12",
+        "image": "/cards/visconti-sforza/Cups12.jpg"
+      },
+      {
+        "id": "Cups13",
+        "name": "Cups 13",
+        "image": "/cards/visconti-sforza/Cups13.jpg"
+      },
+      {
+        "id": "Pents01",
+        "name": "Pents 1",
+        "image": "/cards/visconti-sforza/Pents01.jpg"
+      },
+      {
+        "id": "Pents02",
+        "name": "Pents 2",
+        "image": "/cards/visconti-sforza/Pents02.jpg"
+      },
+      {
+        "id": "Pents03",
+        "name": "Pents 3",
+        "image": "/cards/visconti-sforza/Pents03.jpg"
+      },
+      {
+        "id": "Pents04",
+        "name": "Pents 4",
+        "image": "/cards/visconti-sforza/Pents04.jpg"
+      },
+      {
+        "id": "Pents05",
+        "name": "Pents 5",
+        "image": "/cards/visconti-sforza/Pents05.jpg"
+      },
+      {
+        "id": "Pents06",
+        "name": "Pents 6",
+        "image": "/cards/visconti-sforza/Pents06.jpg"
+      },
+      {
+        "id": "Pents07",
+        "name": "Pents 7",
+        "image": "/cards/visconti-sforza/Pents07.jpg"
+      },
+      {
+        "id": "Pents08",
+        "name": "Pents 8",
+        "image": "/cards/visconti-sforza/Pents08.jpg"
+      },
+      {
+        "id": "Pents09",
+        "name": "Pents 9",
+        "image": "/cards/visconti-sforza/Pents09.jpg"
+      },
+      {
+        "id": "Pents10",
+        "name": "Pents 10",
+        "image": "/cards/visconti-sforza/Pents10.jpg"
+      },
+      {
+        "id": "Pents11",
+        "name": "Pents 11",
+        "image": "/cards/visconti-sforza/Pents11.jpg"
+      },
+      {
+        "id": "Pents13",
+        "name": "Pents 13",
+        "image": "/cards/visconti-sforza/Pents13.jpg"
+      },
+      {
+        "id": "Pents14",
+        "name": "Pents 14",
+        "image": "/cards/visconti-sforza/Pents14.jpg"
+      },
+      {
+        "id": "Swords01",
+        "name": "Swords 1",
+        "image": "/cards/visconti-sforza/Swords01.jpg"
+      },
+      {
+        "id": "Swords02",
+        "name": "Swords 2",
+        "image": "/cards/visconti-sforza/Swords02.jpg"
+      },
+      {
+        "id": "Swords04",
+        "name": "Swords 4",
+        "image": "/cards/visconti-sforza/Swords04.jpg"
+      },
+      {
+        "id": "Swords05",
+        "name": "Swords 5",
+        "image": "/cards/visconti-sforza/Swords05.jpg"
+      },
+      {
+        "id": "Swords06",
+        "name": "Swords 6",
+        "image": "/cards/visconti-sforza/Swords06.jpg"
+      },
+      {
+        "id": "Swords07",
+        "name": "Swords 7",
+        "image": "/cards/visconti-sforza/Swords07.jpg"
+      },
+      {
+        "id": "Swords08",
+        "name": "Swords 8",
+        "image": "/cards/visconti-sforza/Swords08.jpg"
+      },
+      {
+        "id": "Swords09",
+        "name": "Swords 9",
+        "image": "/cards/visconti-sforza/Swords09.jpg"
+      },
+      {
+        "id": "Swords10",
+        "name": "Swords 10",
+        "image": "/cards/visconti-sforza/Swords10.jpg"
+      },
+      {
+        "id": "Swords11",
+        "name": "Swords 11",
+        "image": "/cards/visconti-sforza/Swords11.jpg"
+      },
+      {
+        "id": "Swords12",
+        "name": "Swords 12",
+        "image": "/cards/visconti-sforza/Swords12.jpg"
+      },
+      {
+        "id": "Swords13",
+        "name": "Swords 13",
+        "image": "/cards/visconti-sforza/Swords13.jpg"
+      },
+      {
+        "id": "Swords14",
+        "name": "Swords 14",
+        "image": "/cards/visconti-sforza/Swords14.jpg"
+      },
+      {
+        "id": "Wands01",
+        "name": "Wands 1",
+        "image": "/cards/visconti-sforza/Wands01.jpg"
+      },
+      {
+        "id": "Wands02",
+        "name": "Wands 2",
+        "image": "/cards/visconti-sforza/Wands02.jpg"
+      },
+      {
+        "id": "Wands03",
+        "name": "Wands 3",
+        "image": "/cards/visconti-sforza/Wands03.jpg"
+      },
+      {
+        "id": "Wands04",
+        "name": "Wands 4",
+        "image": "/cards/visconti-sforza/Wands04.jpg"
+      },
+      {
+        "id": "Wands05",
+        "name": "Wands 5",
+        "image": "/cards/visconti-sforza/Wands05.jpg"
+      },
+      {
+        "id": "Wands06",
+        "name": "Wands 6",
+        "image": "/cards/visconti-sforza/Wands06.jpg"
+      },
+      {
+        "id": "Wands07",
+        "name": "Wands 7",
+        "image": "/cards/visconti-sforza/Wands07.jpg"
+      },
+      {
+        "id": "Wands08",
+        "name": "Wands 8",
+        "image": "/cards/visconti-sforza/Wands08.jpg"
+      },
+      {
+        "id": "Wands09",
+        "name": "Wands 9",
+        "image": "/cards/visconti-sforza/Wands09.jpg"
+      },
+      {
+        "id": "Wands10",
+        "name": "Wands 10",
+        "image": "/cards/visconti-sforza/Wands10.jpg"
+      },
+      {
+        "id": "Wands11",
+        "name": "Wands 11",
+        "image": "/cards/visconti-sforza/Wands11.jpg"
+      },
+      {
+        "id": "Wands12",
+        "name": "Wands 12",
+        "image": "/cards/visconti-sforza/Wands12.jpg"
+      },
+      {
+        "id": "Wands13",
+        "name": "Wands 13",
+        "image": "/cards/visconti-sforza/Wands13.jpg"
+      },
+      {
+        "id": "Wands14",
+        "name": "Wands 14",
+        "image": "/cards/visconti-sforza/Wands14.jpg"
+      }
+    ]
+  },
+  {
+    "id": "oswald-wirth",
+    "name": "Oswald Wirth",
+    "count": 22,
+    "license": "Public Domain",
+    "cover": null,
+    "cards": [
+      {
+        "id": "00_Le_Fou",
+        "name": "Le Fou",
+        "image": "/cards/oswald-wirth/00_Le_Fou.jpg"
+      },
+      {
+        "id": "01_Le_Bateleur",
+        "name": "Le Bateleur",
+        "image": "/cards/oswald-wirth/01_Le_Bateleur.jpg"
+      },
+      {
+        "id": "02_La_Papesse",
+        "name": "La Papesse",
+        "image": "/cards/oswald-wirth/02_La_Papesse.jpg"
+      },
+      {
+        "id": "03_L_Imperatrice",
+        "name": "L Imperatrice",
+        "image": "/cards/oswald-wirth/03_L_Imperatrice.jpg"
+      },
+      {
+        "id": "04_L_Empereur",
+        "name": "L Empereur",
+        "image": "/cards/oswald-wirth/04_L_Empereur.jpg"
+      },
+      {
+        "id": "05_Le_Pape",
+        "name": "Le Pape",
+        "image": "/cards/oswald-wirth/05_Le_Pape.jpg"
+      },
+      {
+        "id": "06_L_Amoureux",
+        "name": "L Amoureux",
+        "image": "/cards/oswald-wirth/06_L_Amoureux.jpg"
+      },
+      {
+        "id": "07_Le_Chariot",
+        "name": "Le Chariot",
+        "image": "/cards/oswald-wirth/07_Le_Chariot.jpg"
+      },
+      {
+        "id": "08_La_Justice",
+        "name": "La Justice",
+        "image": "/cards/oswald-wirth/08_La_Justice.jpg"
+      },
+      {
+        "id": "09_L_Ermite",
+        "name": "L Ermite",
+        "image": "/cards/oswald-wirth/09_L_Ermite.jpg"
+      },
+      {
+        "id": "10_La_Roue_de_Fortune",
+        "name": "La Roue de Fortune",
+        "image": "/cards/oswald-wirth/10_La_Roue_de_Fortune.jpg"
+      },
+      {
+        "id": "11_La_Force",
+        "name": "La Force",
+        "image": "/cards/oswald-wirth/11_La_Force.jpg"
+      },
+      {
+        "id": "12_Le_Pendu",
+        "name": "Le Pendu",
+        "image": "/cards/oswald-wirth/12_Le_Pendu.jpg"
+      },
+      {
+        "id": "13_La_Mort",
+        "name": "La Mort",
+        "image": "/cards/oswald-wirth/13_La_Mort.jpg"
+      },
+      {
+        "id": "14_La_Temperance",
+        "name": "La Temperance",
+        "image": "/cards/oswald-wirth/14_La_Temperance.jpg"
+      },
+      {
+        "id": "15_Le_Diable",
+        "name": "Le Diable",
+        "image": "/cards/oswald-wirth/15_Le_Diable.jpg"
+      },
+      {
+        "id": "16_Le_Feu_du_Ciel",
+        "name": "Le Feu du Ciel",
+        "image": "/cards/oswald-wirth/16_Le_Feu_du_Ciel.jpg"
+      },
+      {
+        "id": "17_Les_Etoiles",
+        "name": "Les Etoiles",
+        "image": "/cards/oswald-wirth/17_Les_Etoiles.jpg"
+      },
+      {
+        "id": "18_La_Lune",
+        "name": "La Lune",
+        "image": "/cards/oswald-wirth/18_La_Lune.jpg"
+      },
+      {
+        "id": "19_Le_Soleil",
+        "name": "Le Soleil",
+        "image": "/cards/oswald-wirth/19_Le_Soleil.jpg"
+      },
+      {
+        "id": "20_Le_Jugement",
+        "name": "Le Jugement",
+        "image": "/cards/oswald-wirth/20_Le_Jugement.jpg"
+      },
+      {
+        "id": "21_Le_Monde",
+        "name": "Le Monde",
+        "image": "/cards/oswald-wirth/21_Le_Monde.jpg"
+      }
+    ]
+  },
+  {
+    "id": "tarot-nouveau",
+    "name": "Tarot Nouveau",
+    "count": 78,
+    "license": "Public Domain",
+    "cover": "/cards/tarot-nouveau/Cover.jpg",
+    "cards": [
+      {
+        "id": "00_Excuse",
+        "name": "Excuse",
+        "image": "/cards/tarot-nouveau/00_Excuse.jpg"
+      },
+      {
+        "id": "01_Atout",
+        "name": "Atout",
+        "image": "/cards/tarot-nouveau/01_Atout.jpg"
+      },
+      {
+        "id": "02_Atout",
+        "name": "Atout",
+        "image": "/cards/tarot-nouveau/02_Atout.jpg"
+      },
+      {
+        "id": "03_Atout",
+        "name": "Atout",
+        "image": "/cards/tarot-nouveau/03_Atout.jpg"
+      },
+      {
+        "id": "04_Atout",
+        "name": "Atout",
+        "image": "/cards/tarot-nouveau/04_Atout.jpg"
+      },
+      {
+        "id": "05_Atout",
+        "name": "Atout",
+        "image": "/cards/tarot-nouveau/05_Atout.jpg"
+      },
+      {
+        "id": "06_Atout",
+        "name": "Atout",
+        "image": "/cards/tarot-nouveau/06_Atout.jpg"
+      },
+      {
+        "id": "07_Atout",
+        "name": "Atout",
+        "image": "/cards/tarot-nouveau/07_Atout.jpg"
+      },
+      {
+        "id": "08_Atout",
+        "name": "Atout",
+        "image": "/cards/tarot-nouveau/08_Atout.jpg"
+      },
+      {
+        "id": "09_Atout",
+        "name": "Atout",
+        "image": "/cards/tarot-nouveau/09_Atout.jpg"
+      },
+      {
+        "id": "10_Atout",
+        "name": "Atout",
+        "image": "/cards/tarot-nouveau/10_Atout.jpg"
+      },
+      {
+        "id": "11_Atout",
+        "name": "Atout",
+        "image": "/cards/tarot-nouveau/11_Atout.jpg"
+      },
+      {
+        "id": "12_Atout",
+        "name": "Atout",
+        "image": "/cards/tarot-nouveau/12_Atout.jpg"
+      },
+      {
+        "id": "13_Atout",
+        "name": "Atout",
+        "image": "/cards/tarot-nouveau/13_Atout.jpg"
+      },
+      {
+        "id": "14_Atout",
+        "name": "Atout",
+        "image": "/cards/tarot-nouveau/14_Atout.jpg"
+      },
+      {
+        "id": "15_Atout",
+        "name": "Atout",
+        "image": "/cards/tarot-nouveau/15_Atout.jpg"
+      },
+      {
+        "id": "16_Atout",
+        "name": "Atout",
+        "image": "/cards/tarot-nouveau/16_Atout.jpg"
+      },
+      {
+        "id": "17_Atout",
+        "name": "Atout",
+        "image": "/cards/tarot-nouveau/17_Atout.jpg"
+      },
+      {
+        "id": "18_Atout",
+        "name": "Atout",
+        "image": "/cards/tarot-nouveau/18_Atout.jpg"
+      },
+      {
+        "id": "19_Atout",
+        "name": "Atout",
+        "image": "/cards/tarot-nouveau/19_Atout.jpg"
+      },
+      {
+        "id": "20_Atout",
+        "name": "Atout",
+        "image": "/cards/tarot-nouveau/20_Atout.jpg"
+      },
+      {
+        "id": "21_Atout",
+        "name": "Atout",
+        "image": "/cards/tarot-nouveau/21_Atout.jpg"
+      },
+      {
+        "id": "Clubs01",
+        "name": "Clubs 1",
+        "image": "/cards/tarot-nouveau/Clubs01.jpg"
+      },
+      {
+        "id": "Clubs02",
+        "name": "Clubs 2",
+        "image": "/cards/tarot-nouveau/Clubs02.jpg"
+      },
+      {
+        "id": "Clubs03",
+        "name": "Clubs 3",
+        "image": "/cards/tarot-nouveau/Clubs03.jpg"
+      },
+      {
+        "id": "Clubs04",
+        "name": "Clubs 4",
+        "image": "/cards/tarot-nouveau/Clubs04.jpg"
+      },
+      {
+        "id": "Clubs05",
+        "name": "Clubs 5",
+        "image": "/cards/tarot-nouveau/Clubs05.jpg"
+      },
+      {
+        "id": "Clubs06",
+        "name": "Clubs 6",
+        "image": "/cards/tarot-nouveau/Clubs06.jpg"
+      },
+      {
+        "id": "Clubs07",
+        "name": "Clubs 7",
+        "image": "/cards/tarot-nouveau/Clubs07.jpg"
+      },
+      {
+        "id": "Clubs08",
+        "name": "Clubs 8",
+        "image": "/cards/tarot-nouveau/Clubs08.jpg"
+      },
+      {
+        "id": "Clubs09",
+        "name": "Clubs 9",
+        "image": "/cards/tarot-nouveau/Clubs09.jpg"
+      },
+      {
+        "id": "Clubs10",
+        "name": "Clubs 10",
+        "image": "/cards/tarot-nouveau/Clubs10.jpg"
+      },
+      {
+        "id": "Clubs11",
+        "name": "Clubs 11",
+        "image": "/cards/tarot-nouveau/Clubs11.jpg"
+      },
+      {
+        "id": "Clubs12",
+        "name": "Clubs 12",
+        "image": "/cards/tarot-nouveau/Clubs12.jpg"
+      },
+      {
+        "id": "Clubs13",
+        "name": "Clubs 13",
+        "image": "/cards/tarot-nouveau/Clubs13.jpg"
+      },
+      {
+        "id": "Clubs14",
+        "name": "Clubs 14",
+        "image": "/cards/tarot-nouveau/Clubs14.jpg"
+      },
+      {
+        "id": "Diamonds01",
+        "name": "Diamonds 1",
+        "image": "/cards/tarot-nouveau/Diamonds01.jpg"
+      },
+      {
+        "id": "Diamonds02",
+        "name": "Diamonds 2",
+        "image": "/cards/tarot-nouveau/Diamonds02.jpg"
+      },
+      {
+        "id": "Diamonds03",
+        "name": "Diamonds 3",
+        "image": "/cards/tarot-nouveau/Diamonds03.jpg"
+      },
+      {
+        "id": "Diamonds04",
+        "name": "Diamonds 4",
+        "image": "/cards/tarot-nouveau/Diamonds04.jpg"
+      },
+      {
+        "id": "Diamonds05",
+        "name": "Diamonds 5",
+        "image": "/cards/tarot-nouveau/Diamonds05.jpg"
+      },
+      {
+        "id": "Diamonds06",
+        "name": "Diamonds 6",
+        "image": "/cards/tarot-nouveau/Diamonds06.jpg"
+      },
+      {
+        "id": "Diamonds07",
+        "name": "Diamonds 7",
+        "image": "/cards/tarot-nouveau/Diamonds07.jpg"
+      },
+      {
+        "id": "Diamonds08",
+        "name": "Diamonds 8",
+        "image": "/cards/tarot-nouveau/Diamonds08.jpg"
+      },
+      {
+        "id": "Diamonds09",
+        "name": "Diamonds 9",
+        "image": "/cards/tarot-nouveau/Diamonds09.jpg"
+      },
+      {
+        "id": "Diamonds10",
+        "name": "Diamonds 10",
+        "image": "/cards/tarot-nouveau/Diamonds10.jpg"
+      },
+      {
+        "id": "Diamonds11",
+        "name": "Diamonds 11",
+        "image": "/cards/tarot-nouveau/Diamonds11.jpg"
+      },
+      {
+        "id": "Diamonds12",
+        "name": "Diamonds 12",
+        "image": "/cards/tarot-nouveau/Diamonds12.jpg"
+      },
+      {
+        "id": "Diamonds13",
+        "name": "Diamonds 13",
+        "image": "/cards/tarot-nouveau/Diamonds13.jpg"
+      },
+      {
+        "id": "Diamonds14",
+        "name": "Diamonds 14",
+        "image": "/cards/tarot-nouveau/Diamonds14.jpg"
+      },
+      {
+        "id": "Hearts01",
+        "name": "Hearts 1",
+        "image": "/cards/tarot-nouveau/Hearts01.jpg"
+      },
+      {
+        "id": "Hearts02",
+        "name": "Hearts 2",
+        "image": "/cards/tarot-nouveau/Hearts02.jpg"
+      },
+      {
+        "id": "Hearts03",
+        "name": "Hearts 3",
+        "image": "/cards/tarot-nouveau/Hearts03.jpg"
+      },
+      {
+        "id": "Hearts04",
+        "name": "Hearts 4",
+        "image": "/cards/tarot-nouveau/Hearts04.jpg"
+      },
+      {
+        "id": "Hearts05",
+        "name": "Hearts 5",
+        "image": "/cards/tarot-nouveau/Hearts05.jpg"
+      },
+      {
+        "id": "Hearts06",
+        "name": "Hearts 6",
+        "image": "/cards/tarot-nouveau/Hearts06.jpg"
+      },
+      {
+        "id": "Hearts07",
+        "name": "Hearts 7",
+        "image": "/cards/tarot-nouveau/Hearts07.jpg"
+      },
+      {
+        "id": "Hearts08",
+        "name": "Hearts 8",
+        "image": "/cards/tarot-nouveau/Hearts08.jpg"
+      },
+      {
+        "id": "Hearts09",
+        "name": "Hearts 9",
+        "image": "/cards/tarot-nouveau/Hearts09.jpg"
+      },
+      {
+        "id": "Hearts10",
+        "name": "Hearts 10",
+        "image": "/cards/tarot-nouveau/Hearts10.jpg"
+      },
+      {
+        "id": "Hearts11",
+        "name": "Hearts 11",
+        "image": "/cards/tarot-nouveau/Hearts11.jpg"
+      },
+      {
+        "id": "Hearts12",
+        "name": "Hearts 12",
+        "image": "/cards/tarot-nouveau/Hearts12.jpg"
+      },
+      {
+        "id": "Hearts13",
+        "name": "Hearts 13",
+        "image": "/cards/tarot-nouveau/Hearts13.jpg"
+      },
+      {
+        "id": "Hearts14",
+        "name": "Hearts 14",
+        "image": "/cards/tarot-nouveau/Hearts14.jpg"
+      },
+      {
+        "id": "Spades01",
+        "name": "Spades 1",
+        "image": "/cards/tarot-nouveau/Spades01.jpg"
+      },
+      {
+        "id": "Spades02",
+        "name": "Spades 2",
+        "image": "/cards/tarot-nouveau/Spades02.jpg"
+      },
+      {
+        "id": "Spades03",
+        "name": "Spades 3",
+        "image": "/cards/tarot-nouveau/Spades03.jpg"
+      },
+      {
+        "id": "Spades04",
+        "name": "Spades 4",
+        "image": "/cards/tarot-nouveau/Spades04.jpg"
+      },
+      {
+        "id": "Spades05",
+        "name": "Spades 5",
+        "image": "/cards/tarot-nouveau/Spades05.jpg"
+      },
+      {
+        "id": "Spades06",
+        "name": "Spades 6",
+        "image": "/cards/tarot-nouveau/Spades06.jpg"
+      },
+      {
+        "id": "Spades07",
+        "name": "Spades 7",
+        "image": "/cards/tarot-nouveau/Spades07.jpg"
+      },
+      {
+        "id": "Spades08",
+        "name": "Spades 8",
+        "image": "/cards/tarot-nouveau/Spades08.jpg"
+      },
+      {
+        "id": "Spades09",
+        "name": "Spades 9",
+        "image": "/cards/tarot-nouveau/Spades09.jpg"
+      },
+      {
+        "id": "Spades10",
+        "name": "Spades 10",
+        "image": "/cards/tarot-nouveau/Spades10.jpg"
+      },
+      {
+        "id": "Spades11",
+        "name": "Spades 11",
+        "image": "/cards/tarot-nouveau/Spades11.jpg"
+      },
+      {
+        "id": "Spades12",
+        "name": "Spades 12",
+        "image": "/cards/tarot-nouveau/Spades12.jpg"
+      },
+      {
+        "id": "Spades13",
+        "name": "Spades 13",
+        "image": "/cards/tarot-nouveau/Spades13.jpg"
+      },
+      {
+        "id": "Spades14",
+        "name": "Spades 14",
+        "image": "/cards/tarot-nouveau/Spades14.jpg"
+      }
+    ]
+  }
+]

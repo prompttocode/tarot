@@ -1,0 +1,10 @@
+{
+  "name": "Lá — Tarot cho khoảnh khắc này",
+  "short_name": "Lá Tarot",
+  "description": "Một khoảng lặng để lắng nghe chính mình qua những lá bài Tarot.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a1720",
+  "theme_color": "#0a1720",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
