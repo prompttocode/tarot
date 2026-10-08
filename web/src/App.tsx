@@ -1,7 +1,7 @@
 import { memo, useEffect, useRef, useState } from 'react'
 import {
   ArrowLeft, ArrowRight, Bookmark, Check, ChevronLeft, ChevronRight,
-  Activity, BriefcaseBusiness, Coins, Compass, Grid2X2, Heart, MoonStar, RotateCcw, Search, Sparkles, X,
+  Activity, BriefcaseBusiness, Coins, Compass, Grid2X2, Heart, RotateCcw, Search, Sparkles, X,
 } from 'lucide-react'
 import deckData from './data/decks.json'
 import { readingAdvice } from './data/advice'
@@ -352,14 +352,6 @@ function App() {
       <div className="ambient ambient--one" aria-hidden="true" />
       <div className="ambient ambient--two" aria-hidden="true" />
       <div className="app-shell">
-        <header className="topbar">
-          <button className="brand" type="button" onClick={() => navigate('home')} aria-label="Về trang chủ">
-            <span className="brand__symbol">✳</span><span>LÁ<span className="brand__dot">.</span></span>
-          </button>
-          <span className="topbar__caption">MỘT KHOẢNG LẶNG CHO BẠN</span>
-          <button className="topbar__icon" type="button" onClick={() => navigate('journal')} aria-label="Mở nhật ký"><MoonStar size={19} strokeWidth={1.5} /></button>
-        </header>
-
         <main key={tab} className="main-content">
           {tab === 'home' && <>
             <section className="home-hero">

@@ -101,3 +101,4 @@ h1,h2,h3,p{margin-top:0}.home-hero{min-height:668px;position:relative;text-align
 .draw-fan__card.is-picked,.draw-fan__card.is-picked:active{transform:translate(-50%,-50%) translate(calc(var(--arc-x) + var(--lift-x)),calc(var(--arc-y) + var(--lift-y))) rotate(0deg) scale(1.62);transition:transform 540ms cubic-bezier(.16,.85,.2,1),filter 340ms ease}
 @media(max-width:370px){.draw-fan__card{left:50%;top:58%;bottom:auto;width:112px;height:183px;transform:translate(-50%,-50%) translate(var(--arc-x),var(--arc-y)) rotate(var(--arc-rotation)) scale(var(--arc-scale))}.draw-fan__card.is-picked,.draw-fan__card.is-picked:active{transform:translate(-50%,-50%) translate(calc(var(--arc-x) + var(--lift-x)),calc(var(--arc-y) + var(--lift-y))) rotate(0deg) scale(1.62)}}
 .gesture-hint b{font-weight:700;color:#f0c68c;letter-spacing:.05em}
+.main-content{min-height:100svh;padding-top:env(safe-area-inset-top)}
